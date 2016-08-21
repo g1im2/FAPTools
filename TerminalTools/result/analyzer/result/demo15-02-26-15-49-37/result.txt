@@ -1,0 +1,1084 @@
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:00.902 I/Input   (13650): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22411076, downTime=22411076, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:00.907 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:00.908 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:00.911 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:00.920 I/Input   (13650): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22411076, downTime=22411076, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:00.920 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:00.925 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:02.905 I/Input   (13668): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22413079, downTime=22413079, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:02.910 D/WindowManager( 1948): keyCode =19
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:02.912 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:02.915 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=19 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:02.918 I/Input   (13668): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22413079, downTime=22413079, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:02.918 D/WindowManager( 1948): keyCode =19
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:02.925 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=19 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:05.008 I/Input   (13680): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22415182, downTime=22415182, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:05.013 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:05.014 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:05.018 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:05.019 I/Input   (13680): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22415182, downTime=22415182, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:05.020 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:05.025 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.173 I/Input   (13720): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22418347, downTime=22418347, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.179 D/WindowManager( 1948): keyCode =66
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.181 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.184 I/Input   (13720): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22418347, downTime=22418347, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.184 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=66 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.185 D/WindowManager( 1948): keyCode =66
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.188 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=66 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.210 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.210 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.210 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.210 D/Utils   ( 2257): dumpBundle() copyBundle() source=: key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.211 D/Utils   ( 2257): dumpBundle() copyBundle() source=: key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2d4cfb18
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.211 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.212 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.212 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.212 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2d4cfb18
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.212 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2f05f300
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.216 D/OpenApiUtils( 2323): createAlbum() return qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.284 D/OpenApiBinder( 2323): invoke() end. key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.284 D/OpenApiBinder( 2323): invoke() end. key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.286 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.286 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.287 D/Utils   ( 2257): dumpBundle() executeCommand(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.287 D/Utils   ( 2257): dumpBundle() executeCommand(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.288 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.288 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.550 D/PlayerController[2ca9db70]( 2323): setupVideo(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2cbf8220{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.553 D/VideoProvider( 2323): createSourceLoader(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2cbf8220{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:08.797 D/LoadingInfoCreator( 2323): createFrom(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2cbf8220{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:10.464 I/Input   (13759): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22420639, downTime=22420639, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:10.470 D/WindowManager( 1948): keyCode =3
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:10.472 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:10.475 I/Input   (13759): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22420639, downTime=22420639, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:10.477 D/WindowManager( 1948): keyCode =3
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:10.495 I/QBaseActivity( 2323): HomeMonitor home key pressed
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:12.613 I/Input   (13771): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22422788, downTime=22422788, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:12.618 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:12.619 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:12.622 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:12.624 I/Input   (13771): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22422788, downTime=22422788, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:12.625 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:12.647 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:13.963 I/System.out( 2323): D/(TVApi:4/4, id=155,专辑详情,t=5156ms): response is {"data":{"qpId":202509101,"name":"中国梦想秀第9季","type":0,"focus":"中国梦想秀第9季","tvFocus":"折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生","pic":"http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1.jpg","tvPic":"","score":"10.0","isSeries":1,"tag":"国语,内地,真人秀","exclusive":0,"sourceCode":"202509101","is3D":0,"tvsets":0,"order":0,"time":"20150225","tvCount":1,"stream":"600,300,jisu,1080p,720p","isPurchase":0,"tvQId":349989700,"vid":"256c33c045d36a7126ce1db2c37c0167","len":1445,"tvName":"折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生","chnId":6,"chnName":"综艺","initIssueTime":"2015-02-25 22:10:46","cast":{"composer":"","host":"周立波","dubber":"","maker":"","songWriter":"","producer":"","star":"余枫,刘雨欣","guest":"余枫,刘雨欣","mainActor":"周立波","actor":"余枫,刘雨欣","director":"","writer":""},"vidl":[{"vd":"720P","vid":"256c33c045d36a7126ce1db2c37c0167"},{"vd":"jisu","vid":"4ed18e53b9ac4bac048fe75a16849942"},{"vd":"600","vid":"560816fee0812e9d2c414f0a0e95bf70"},{"vd":"300","vid":"949ee728ae9cb1c711abd02a35d1a27e"},{"vd":"1080P","vid":"f546b6a3c5c4fd9cde04cc35c235e919"}],"pCount":"41499","desc":"中国梦想秀20150225，折纸人人都会，近年来纸模也越发流行，但是仅用一张纸就能够折出一个大千世界的人却并不常见。第九季《中国梦想秀》第一期的追梦人刘通就让观众们见识到了他的一纸乾坤。大象、犀牛、战马、穿山甲……如果不是亲眼见到，很难想象这些动物能够仅用一张正方形的纸在不剪不裁的情况下就被折出来，并且还都栩栩如生。追梦人刘通是一位折纸爱好者，理科出身的他，将折纸与数学运算相结合，运用数学原理运算，将一张纸进行了合理的分配，从而折出各种千变万化的实物。刘通的折纸作品在世界各地博物馆都有收藏，2015年在米兰举行的世博会上，他还被邀请作为特邀设计师。\r\n。","key":"中国梦想秀第9季","isDownload":1,"effective":1,"contentType":1},"code":"N000000","msg":""}
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:14.726 I/Input   (13795): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22424901, downTime=22424901, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:14.731 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:14.732 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:14.736 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:14.738 I/Input   (13795): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22424901, downTime=22424901, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:14.738 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:14.744 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:16.724 I/Input   (13807): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22426899, downTime=22426899, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:16.729 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:16.731 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:16.734 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:16.737 I/Input   (13807): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22426899, downTime=22426899, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:16.737 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:16.741 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:19.819 I/Input   (13821): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22429994, downTime=22429994, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:19.824 D/WindowManager( 1948): keyCode =4
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:19.825 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:19.828 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=4 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:19.833 I/Input   (13821): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22429994, downTime=22429994, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:19.834 D/WindowManager( 1948): keyCode =4
+
+#################################################################
+result/log/demo/demo-15-02-26-15-39-04.log with Bug was happened :
+02-25 23:40:19.864 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=4 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:35.190 I/Input   (14083): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22925365, downTime=22925365, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:35.195 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:35.196 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:35.199 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:35.204 I/Input   (14083): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22925365, downTime=22925365, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:35.204 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:35.208 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:37.229 I/Input   (14098): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22927404, downTime=22927404, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:37.234 D/WindowManager( 1948): keyCode =19
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:37.236 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:37.239 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=19 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:37.242 I/Input   (14098): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22927404, downTime=22927404, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:37.242 D/WindowManager( 1948): keyCode =19
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:37.268 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=19 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:39.296 I/Input   (14110): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22929471, downTime=22929471, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:39.301 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:39.303 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:39.306 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:39.308 I/Input   (14110): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22929471, downTime=22929471, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:39.309 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:39.332 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.378 I/Input   (14122): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22932552, downTime=22932552, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.383 D/WindowManager( 1948): keyCode =66
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.385 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.388 I/Input   (14122): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22932552, downTime=22932552, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.388 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=66 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.389 D/WindowManager( 1948): keyCode =66
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.393 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=66 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.412 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.412 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.412 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.412 D/Utils   ( 2257): dumpBundle() copyBundle() source=: key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.412 D/Utils   ( 2257): dumpBundle() copyBundle() source=: key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2d4cfb18
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.413 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.413 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.413 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.413 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2d4cfb18
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.413 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.415 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.416 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.416 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.416 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2db0e278
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.416 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.418 D/OpenApiUtils( 2323): createAlbum() return qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.447 D/OpenApiBinder( 2323): invoke() end. key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.447 D/OpenApiBinder( 2323): invoke() end. key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.448 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.448 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.449 D/Utils   ( 2257): dumpBundle() executeCommand(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.449 D/Utils   ( 2257): dumpBundle() executeCommand(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.449 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.449 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.513 D/PlayerController[2efb4890]( 2323): setupVideo(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2efb1b00{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.514 D/VideoProvider( 2323): createSourceLoader(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2efb1b00{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:42.622 D/LoadingInfoCreator( 2323): createFrom(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2efb1b00{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:44.529 I/Input   (14157): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22934704, downTime=22934704, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:44.535 D/WindowManager( 1948): keyCode =3
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:44.537 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:44.539 I/Input   (14157): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22934704, downTime=22934704, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:44.540 D/WindowManager( 1948): keyCode =3
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:44.563 I/QBaseActivity( 2323): HomeMonitor home key pressed
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:46.719 I/Input   (14170): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22936893, downTime=22936893, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:46.723 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:46.725 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:46.728 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:46.732 I/Input   (14170): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22936893, downTime=22936893, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:46.732 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:46.737 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:48.809 I/Input   (14182): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22938984, downTime=22938984, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:48.814 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:48.816 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:48.819 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:48.821 I/Input   (14182): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22938984, downTime=22938984, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:48.821 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:48.827 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:48.852 I/System.out( 2323): D/(TVApi:1/4, id=156,专辑详情,t=6217ms): response is {"data":{"qpId":202509101,"name":"中国梦想秀第9季","type":0,"focus":"中国梦想秀第9季","tvFocus":"折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生","pic":"http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1.jpg","tvPic":"","score":"10.0","isSeries":1,"tag":"国语,内地,真人秀","exclusive":0,"sourceCode":"202509101","is3D":0,"tvsets":0,"order":0,"time":"20150225","tvCount":1,"stream":"600,300,jisu,1080p,720p","isPurchase":0,"tvQId":349989700,"vid":"256c33c045d36a7126ce1db2c37c0167","len":1445,"tvName":"折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生","chnId":6,"chnName":"综艺","initIssueTime":"2015-02-25 22:10:46","cast":{"composer":"","host":"周立波","dubber":"","maker":"","songWriter":"","producer":"","star":"余枫,刘雨欣","guest":"余枫,刘雨欣","mainActor":"周立波","actor":"余枫,刘雨欣","director":"","writer":""},"vidl":[{"vd":"720P","vid":"256c33c045d36a7126ce1db2c37c0167"},{"vd":"jisu","vid":"4ed18e53b9ac4bac048fe75a16849942"},{"vd":"600","vid":"560816fee0812e9d2c414f0a0e95bf70"},{"vd":"300","vid":"949ee728ae9cb1c711abd02a35d1a27e"},{"vd":"1080P","vid":"f546b6a3c5c4fd9cde04cc35c235e919"}],"pCount":"41499","desc":"中国梦想秀20150225，折纸人人都会，近年来纸模也越发流行，但是仅用一张纸就能够折出一个大千世界的人却并不常见。第九季《中国梦想秀》第一期的追梦人刘通就让观众们见识到了他的一纸乾坤。大象、犀牛、战马、穿山甲……如果不是亲眼见到，很难想象这些动物能够仅用一张正方形的纸在不剪不裁的情况下就被折出来，并且还都栩栩如生。追梦人刘通是一位折纸爱好者，理科出身的他，将折纸与数学运算相结合，运用数学原理运算，将一张纸进行了合理的分配，从而折出各种千变万化的实物。刘通的折纸作品在世界各地博物馆都有收藏，2015年在米兰举行的世博会上，他还被邀请作为特邀设计师。\r\n。","key":"中国梦想秀第9季","isDownload":1,"effective":1,"contentType":1},"code":"N000000","msg":""}
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:50.838 I/Input   (14195): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22941012, downTime=22941012, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:50.843 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:50.845 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:50.848 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:50.850 I/Input   (14195): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22941012, downTime=22941012, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:50.851 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:50.855 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:53.883 I/Input   (14207): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22944058, downTime=22944058, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:53.889 D/WindowManager( 1948): keyCode =4
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:53.890 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:53.893 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=4 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:53.900 I/Input   (14207): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22944058, downTime=22944058, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:53.901 D/WindowManager( 1948): keyCode =4
+
+#################################################################
+result/log/demo/demo-15-02-26-15-47-38.log with Bug was happened :
+02-25 23:48:53.928 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=4 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:13.218 I/Input   (14236): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23023392, downTime=23023392, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:13.222 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:13.224 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:13.228 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:13.229 I/Input   (14236): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23023392, downTime=23023392, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:13.229 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:13.237 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:15.263 I/Input   (14250): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23025437, downTime=23025437, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:15.268 D/WindowManager( 1948): keyCode =19
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:15.269 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:15.273 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=19 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:15.275 I/Input   (14250): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23025437, downTime=23025437, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:15.276 D/WindowManager( 1948): keyCode =19
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:15.295 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=19 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:17.351 I/Input   (14262): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23027526, downTime=23027526, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:17.359 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:17.362 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:17.366 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:17.369 I/Input   (14262): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23027526, downTime=23027526, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:17.370 D/WindowManager( 1948): keyCode =20
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:17.376 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.581 I/Input   (14274): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23030755, downTime=23030755, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.586 D/WindowManager( 1948): keyCode =66
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.588 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.591 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=66 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.592 I/Input   (14274): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23030755, downTime=23030755, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.593 D/WindowManager( 1948): keyCode =66
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.596 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=66 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.616 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.616 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.616 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.616 D/Utils   ( 2257): dumpBundle() copyBundle() source=: key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.617 D/Utils   ( 2257): dumpBundle() copyBundle() source=: key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2d4cfb18
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.617 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.617 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.617 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.617 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2d4cfb18
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.617 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.619 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.619 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.619 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.619 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2cc70f38
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.619 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.622 D/OpenApiUtils( 2323): createAlbum() return qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.688 D/OpenApiBinder( 2323): invoke() end. key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.688 D/OpenApiBinder( 2323): invoke() end. key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.688 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.688 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.688 D/Utils   ( 2257): dumpBundle() executeCommand(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.689 D/Utils   ( 2257): dumpBundle() executeCommand(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.689 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.689 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.731 D/PlayerController[2ef8ff10]( 2323): setupVideo(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2ef8ec90{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.732 D/VideoProvider( 2323): createSourceLoader(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2ef8ec90{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.846 D/LoadingInfoCreator( 2323): createFrom(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2ef8ec90{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:20.979 I/System.out( 2323): D/(TVApi:2/4, id=157,专辑详情,t=118ms): response is {"data":{"qpId":202509101,"name":"中国梦想秀第9季","type":0,"focus":"中国梦想秀第9季","tvFocus":"折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生","pic":"http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1.jpg","tvPic":"","score":"10.0","isSeries":1,"tag":"国语,内地,真人秀","exclusive":0,"sourceCode":"202509101","is3D":0,"tvsets":0,"order":0,"time":"20150225","tvCount":1,"stream":"600,300,jisu,1080p,720p","isPurchase":0,"tvQId":349989700,"vid":"256c33c045d36a7126ce1db2c37c0167","len":1445,"tvName":"折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生","chnId":6,"chnName":"综艺","initIssueTime":"2015-02-25 22:10:46","cast":{"composer":"","host":"周立波","dubber":"","maker":"","songWriter":"","producer":"","star":"余枫,刘雨欣","guest":"余枫,刘雨欣","mainActor":"周立波","actor":"余枫,刘雨欣","director":"","writer":""},"vidl":[{"vd":"720P","vid":"256c33c045d36a7126ce1db2c37c0167"},{"vd":"jisu","vid":"4ed18e53b9ac4bac048fe75a16849942"},{"vd":"600","vid":"560816fee0812e9d2c414f0a0e95bf70"},{"vd":"300","vid":"949ee728ae9cb1c711abd02a35d1a27e"},{"vd":"1080P","vid":"f546b6a3c5c4fd9cde04cc35c235e919"}],"pCount":"41499","desc":"中国梦想秀20150225，折纸人人都会，近年来纸模也越发流行，但是仅用一张纸就能够折出一个大千世界的人却并不常见。第九季《中国梦想秀》第一期的追梦人刘通就让观众们见识到了他的一纸乾坤。大象、犀牛、战马、穿山甲……如果不是亲眼见到，很难想象这些动物能够仅用一张正方形的纸在不剪不裁的情况下就被折出来，并且还都栩栩如生。追梦人刘通是一位折纸爱好者，理科出身的他，将折纸与数学运算相结合，运用数学原理运算，将一张纸进行了合理的分配，从而折出各种千变万化的实物。刘通的折纸作品在世界各地博物馆都有收藏，2015年在米兰举行的世博会上，他还被邀请作为特邀设计师。\r\n。","key":"中国梦想秀第9季","isDownload":1,"effective":1,"contentType":1},"code":"N000000","msg":""}
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:21.016 D/PlayerController[2ef8ff10]( 2323): 。 key= isSeries=true chnName=综艺 chnId=6 tag=国语,内地,真人秀 exclusive=0 isDownload=true is3D=0 tvsets=0 order=1 time=20150225 tvCount=1 stream=600,300,jisu,1080p,720p isPurchase=0 tvQid=349989700 vid=256c33c045d36a7126ce1db2c37c0167 len=1445 sourceCode=202509101 vType=0 playUrl=null) dump[788070160](mFirstStart=false, mTarget=1, mTargetPosition=-1, mFullscreenHintShown=false, mContinuePlaybackByUser=true, mPlayedAd=false, mPlayer=MoviePlayer@2f207358, player type=-1)
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:22.852 I/Input   (14314): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23033026, downTime=23033026, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:22.857 D/WindowManager( 1948): keyCode =3
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:22.859 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:22.863 I/Input   (14314): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23033026, downTime=23033026, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:22.863 D/WindowManager( 1948): keyCode =3
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:23.022 I/QBaseActivity( 2323): HomeMonitor home key pressed
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:25.090 I/Input   (14327): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23035265, downTime=23035265, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:25.095 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:25.096 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:25.099 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:25.101 I/Input   (14327): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23035265, downTime=23035265, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:25.101 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:25.110 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:27.140 I/Input   (14339): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23037314, downTime=23037314, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:27.145 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:27.146 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:27.149 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:27.152 I/Input   (14339): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23037314, downTime=23037314, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:27.152 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:27.158 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:29.143 I/Input   (14352): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23039317, downTime=23039317, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:29.148 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:29.149 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:29.152 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:29.154 I/Input   (14352): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23039317, downTime=23039317, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:29.155 D/WindowManager( 1948): keyCode =22
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:29.161 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:32.268 I/Input   (14364): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23042443, downTime=23042443, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:32.273 D/WindowManager( 1948): keyCode =4
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:32.275 D/WindowManager( 1948): send broadcast key press down
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:32.278 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=4 [m
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:32.283 I/Input   (14364): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=23042443, downTime=23042443, deviceId=-1, source=0x101 }
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:32.283 D/WindowManager( 1948): keyCode =4
+
+#################################################################
+result/log/demo/demo-15-02-26-15-49-16.log with Bug was happened :
+02-25 23:50:32.313 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=4 [m
+
+#################################################################

@@ -1,0 +1,1418 @@
+--------- beginning of /dev/log/main
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): doAutoScanServerjcifs.smb.SmbException: smb://MSHOME/
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): java.net.UnknownHostException: MSHOME
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at jcifs.UniAddress.getAllByName(UniAddress.java:315)
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.getFirstAddress(SmbFile.java:883)
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.getAddress(SmbFile.java:843)
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.getType(SmbFile.java:1365)
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.doEnum(SmbFile.java:1842)
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.list(SmbFile.java:1801)
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.list(SmbFile.java:1678)
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at com.huawei.sambaclient.service.SambaClientService$AutoScanHandler.doAutoScanServer(SambaClientService.java:3131)
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at com.huawei.sambaclient.service.SambaClientService$AutoScanHandler.handleMessage(SambaClientService.java:2637)
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at android.os.Looper.loop(Looper.java:136)
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+02-25 23:39:59.083 D/SambaClientService( 2610): sendMsg2AutoScan success 4
+02-25 23:39:59.083 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SERVER
+02-25 23:39:59.093 D/SambaAutoScanHandler( 2610): domain = smb://WORKGROUP/
+02-25 23:39:59.113 D/SambaAutoScanHandler( 2610): IPTV-PC
+02-25 23:39:59.113 D/SambaAutoScanHandler( 2610): LINGER-PC
+02-25 23:39:59.113 D/SambaAutoScanHandler( 2610): QUSHAN-PC
+02-25 23:39:59.113 D/SambaAutoScanHandler( 2610): ROOT-PC
+02-25 23:39:59.113 D/SambaClientService( 2610): sendMsg2AutoScan success 5
+02-25 23:39:59.113 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SHARE
+02-25 23:39:59.123 D/SambaAutoScanHandler( 2610): server = smb://IPTV-PC/
+02-25 23:39:59.124 D/SambaClientService( 2610): sendMsg2AutoScan success 6
+02-25 23:39:59.124 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SHARE_AUTH_FRDB
+02-25 23:39:59.137 D/SambaClientService( 2610): sendMsg2AutoScan success 7
+02-25 23:39:59.137 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SHARE_AUTH_FRSET
+02-25 23:39:59.147 D/SambaAutoScanHandler( 2610): server = smb://IPTV-PC/
+02-25 23:39:59.147 D/SambaAutoScanHandler( 2610): urlServer = smb://IPTV-PC/
+02-25 23:39:59.915 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:39:59.917 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:39:59.919 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:39:59.966 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:39:59.968 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:39:59.970 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:00.015 D/v       ( 2257): [0;32;31m[main][net.sunniwell.ui.controls.TimeIcon][a][-1]:launcher:source=11:40PM [m
+02-25 23:40:00.037 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .F...... 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:00.117 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:00.118 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:00.119 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:00.120 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:00.546 D/AndroidRuntime(13650): 
+02-25 23:40:00.546 D/AndroidRuntime(13650): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 23:40:00.549 D/AndroidRuntime(13650): CheckJNI is OFF
+02-25 23:40:00.558 I/dalvikvm(13650): DexOpt: mismatch dep signature for '/system/framework/android.policy.odex'
+02-25 23:40:00.558 E/dalvikvm(13650): /system/framework/services.jar odex has stale dependencies
+02-25 23:40:00.559 I/dalvikvm(13650): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:00.559 E/dalvikvm(13650): /system/framework/apache-xml.jar odex has stale dependencies
+02-25 23:40:00.560 I/dalvikvm(13650): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:00.560 E/dalvikvm(13650): /system/framework/webviewchromium.jar odex has stale dependencies
+02-25 23:40:00.567 D/dalvikvm(13650): Trying to load lib libjavacore.so 0x0
+02-25 23:40:00.571 D/dalvikvm(13650): Added shared lib libjavacore.so 0x0
+02-25 23:40:00.576 D/dalvikvm(13650): Trying to load lib libnativehelper.so 0x0
+02-25 23:40:00.576 D/dalvikvm(13650): Added shared lib libnativehelper.so 0x0
+02-25 23:40:00.576 D/dalvikvm(13650): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 23:40:00.595 I/dalvikvm(13650): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:00.595 E/dalvikvm(13650): /system/framework/input.jar odex has stale dependencies
+02-25 23:40:00.599 E/cutils-trace(13650): Error opening trace file: No such file or directory (2)
+02-25 23:40:00.621 D/dalvikvm(13650): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-25 23:40:00.829 E/memtrack(13650): Couldn't load memtrack module (No such file or directory)
+02-25 23:40:00.829 E/android.os.Debug(13650): failed to load memtrack module: -2
+02-25 23:40:00.831 I/EthernetJNI(13650): Loading ethernet jni class
+02-25 23:40:00.900 D/AndroidRuntime(13650): Calling main entry com.android.commands.input.Input
+02-25 23:40:00.902 I/Input   (13650): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22411076, downTime=22411076, deviceId=-1, source=0x101 }
+02-25 23:40:00.907 D/WindowManager( 1948): keyCode =20
+02-25 23:40:00.907 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:00.907 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:00.907 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:00.907 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:00.907 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:00.908 D/WindowManager( 1948): send broadcast key press down
+--------- beginning of /dev/log/system
+02-25 23:40:00.908 W/ContextImpl( 1948): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1168 com.android.internal.policy.impl.PhoneWindowManager.interceptKeyBeforeQueueing:4109 com.android.server.wm.InputMonitor.interceptKeyBeforeQueueing:357 com.android.server.input.InputManagerService.interceptKeyBeforeQueueing:1352 com.android.server.input.InputManagerService.nativeInjectInputEvent:-2 
+02-25 23:40:00.911 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+02-25 23:40:00.913 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.l][onGlobalFocusChanged][-1]:launcher:newFocus=com.huawei.mh2.launcher.a.s{2d4a63e8 VFE..... .FS..... 840,75-1181,544} [m
+02-25 23:40:00.914 D/ImageLoader( 2257): Start display image task [http://pic5.ptqy.gitv.tv/image/20150216/d4/2b/a_100010251_m_600_m1_354_490.jpg_333x461]
+02-25 23:40:00.915 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.e][onGlobalFocusChanged][-1]:launcher:smoothMove [m
+02-25 23:40:00.915 D/ImageLoader( 2257): Load image from disc cache [http://pic5.ptqy.gitv.tv/image/20150216/d4/2b/a_100010251_m_600_m1_354_490.jpg_333x461]
+02-25 23:40:00.916 D/ImageLoader( 2257): Start display image task [http://pic0.ptqy.gitv.tv/image/20150216/3a/d4/a_100009899_m_601_m1_260_360.jpg_333x461]
+02-25 23:40:00.916 D/ImageLoader( 2257): Load image from disc cache [http://pic0.ptqy.gitv.tv/image/20150216/3a/d4/a_100009899_m_601_m1_260_360.jpg_333x461]
+02-25 23:40:00.917 D/ImageLoader( 2257): Start display image task [http://pic5.ptqy.gitv.tv/image/20141209/ea/fe/05/a_100004790_m_601_m9_260_360.jpg_333x461]
+02-25 23:40:00.918 D/ImageLoader( 2257): Start display image task [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:00.918 D/ImageLoader( 2257): Start display image task [http://pic8.ptqy.gitv.tv/image/20150204/26/6e/a_100008019_m_600_m2_354_490.jpg_333x461]
+02-25 23:40:00.918 D/ImageLoader( 2257): Start display image task [http://pic5.ptqy.gitv.tv/image/20150107/ff/ec/a_100009461_m_601_260_360.jpg_333x461]
+02-25 23:40:00.920 D/ImageLoader( 2257): Load image from disc cache [http://pic5.ptqy.gitv.tv/image/20150107/ff/ec/a_100009461_m_601_260_360.jpg_333x461]
+02-25 23:40:00.920 I/Input   (13650): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22411076, downTime=22411076, deviceId=-1, source=0x101 }
+02-25 23:40:00.920 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.s{2d4a63e8 VFE..... .FS..... 840,75-1181,544} [m
+02-25 23:40:00.920 D/WindowManager( 1948): keyCode =20
+02-25 23:40:00.921 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:00.921 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:00.921 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:00.921 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:00.921 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:00.922 D/ImageLoader( 2257): Start display image task [assets://cornerHint/huawei_ic_corner_exclusive.png_78x63]
+02-25 23:40:00.922 D/ImageLoader( 2257): Load image from disc cache [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:00.922 D/PosterPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.o][onFocusChange][-1]:launcher:hasFocus=true [m
+02-25 23:40:00.922 D/AudioPolicyManagerBase( 1406): startOutput() output 2, stream 1, session 251
+02-25 23:40:00.922 D/AudioPolicyManagerBase( 1406): startoutput ->setOutputDevice
+02-25 23:40:00.922 D/AudioPolicyManagerBase( 1406): AudioPolicyManagerBase::checkAndSetVolume 13,0.377113
+02-25 23:40:00.923 D/ImageLoader( 2257): Start display image task [http://pic0.ptqy.gitv.tv/image/20140716/ab/40/71/a_50907906_m_601_m2_260_360.jpg_333x461]
+02-25 23:40:00.924 D/ImageLoader( 2257): Load image from disc cache [http://pic0.ptqy.gitv.tv/image/20140716/ab/40/71/a_50907906_m_601_m2_260_360.jpg_333x461]
+02-25 23:40:00.925 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+02-25 23:40:00.926 D/ImageLoader( 2257): Load image from disc cache [http://pic8.ptqy.gitv.tv/image/20150204/26/6e/a_100008019_m_600_m2_354_490.jpg_333x461]
+02-25 23:40:00.926 D/AndroidRuntime(13650): Shutting down VM
+02-25 23:40:00.926 D/ImageLoader( 2257): Load image from network [assets://cornerHint/huawei_ic_corner_exclusive.png_78x63]
+02-25 23:40:00.927 D/ImageLoader( 2257): Load image from disc cache [http://pic5.ptqy.gitv.tv/image/20141209/ea/fe/05/a_100004790_m_601_m9_260_360.jpg_333x461]
+02-25 23:40:00.930 D/p       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.p][getView][-1]:launcher:position=12 convertView=null [m
+02-25 23:40:00.931 D/dalvikvm(13650): GC_CONCURRENT freed 98K, 16% free 566K/668K, paused 1ms+0ms, total 4ms
+02-25 23:40:00.977 D/ImageLoader( 2257): PreProcess image before caching in memory [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:00.977 D/ImageLoader( 2257): Cache image in memory [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:00.978 D/ImageLoader( 2257): Start display image task [assets://cornerHint/huawei_ic_corner_1080p.png_78x63]
+02-25 23:40:00.979 D/ImageLoader( 2257): Cache image in memory [assets://cornerHint/huawei_ic_corner_exclusive.png_78x63]
+02-25 23:40:00.980 D/ImageLoader( 2257): Start display image task [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:00.980 D/ImageLoader( 2257): ...Get cached bitmap from memory after waiting. [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:00.982 D/ImageLoader( 2257): Load image from network [assets://cornerHint/huawei_ic_corner_1080p.png_78x63]
+02-25 23:40:00.983 D/ImageLoader( 2257): PreProcess image before caching in memory [http://pic0.ptqy.gitv.tv/image/20150216/3a/d4/a_100009899_m_601_m1_260_360.jpg_333x461]
+02-25 23:40:00.984 D/ImageLoader( 2257): Cache image in memory [http://pic0.ptqy.gitv.tv/image/20150216/3a/d4/a_100009899_m_601_m1_260_360.jpg_333x461]
+02-25 23:40:00.984 D/ImageLoader( 2257): PreProcess image before caching in memory [http://pic5.ptqy.gitv.tv/image/20141209/ea/fe/05/a_100004790_m_601_m9_260_360.jpg_333x461]
+02-25 23:40:00.995 D/ImageLoader( 2257): PreProcess image before caching in memory [http://pic8.ptqy.gitv.tv/image/20150204/26/6e/a_100008019_m_600_m2_354_490.jpg_333x461]
+02-25 23:40:00.995 D/ImageLoader( 2257): Cache image in memory [http://pic8.ptqy.gitv.tv/image/20150204/26/6e/a_100008019_m_600_m2_354_490.jpg_333x461]
+02-25 23:40:00.997 D/ImageLoader( 2257): Cache image in memory [http://pic5.ptqy.gitv.tv/image/20141209/ea/fe/05/a_100004790_m_601_m9_260_360.jpg_333x461]
+02-25 23:40:01.000 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=146 offsetHeight=278 resizeImmediate=false [m
+02-25 23:40:01.000 D/ImageLoader( 2257): PreProcess image before caching in memory [http://pic0.ptqy.gitv.tv/image/20140716/ab/40/71/a_50907906_m_601_m2_260_360.jpg_333x461]
+02-25 23:40:01.000 D/ImageLoader( 2257): Cache image in memory [http://pic0.ptqy.gitv.tv/image/20140716/ab/40/71/a_50907906_m_601_m2_260_360.jpg_333x461]
+02-25 23:40:01.001 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=317 offsetTop=124 moveImmediate=false [m
+02-25 23:40:01.002 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:01.003 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:01.008 D/ImageLoader( 2257): Display image in ImageAware (loaded from DISC_CACHE) [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:01.009 D/ImageLoader( 2257): Display image in ImageAware (loaded from NETWORK) [assets://cornerHint/huawei_ic_corner_exclusive.png_78x63]
+02-25 23:40:01.010 D/ImageLoader( 2257): Display image in ImageAware (loaded from MEMORY_CACHE) [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:01.010 D/ImageLoader( 2257): Display image in ImageAware (loaded from DISC_CACHE) [http://pic0.ptqy.gitv.tv/image/20150216/3a/d4/a_100009899_m_601_m1_260_360.jpg_333x461]
+02-25 23:40:01.011 D/ImageLoader( 2257): Display image in ImageAware (loaded from DISC_CACHE) [http://pic8.ptqy.gitv.tv/image/20150204/26/6e/a_100008019_m_600_m2_354_490.jpg_333x461]
+02-25 23:40:01.011 D/ImageLoader( 2257): Display image in ImageAware (loaded from DISC_CACHE) [http://pic5.ptqy.gitv.tv/image/20141209/ea/fe/05/a_100004790_m_601_m9_260_360.jpg_333x461]
+02-25 23:40:01.012 D/ImageLoader( 2257): Display image in ImageAware (loaded from DISC_CACHE) [http://pic0.ptqy.gitv.tv/image/20140716/ab/40/71/a_50907906_m_601_m2_260_360.jpg_333x461]
+02-25 23:40:01.013 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=51 offsetHeight=97 resizeImmediate=false [m
+02-25 23:40:01.014 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=111 offsetTop=44 moveImmediate=false [m
+02-25 23:40:01.015 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:01.016 D/ImageLoader( 2257): PreProcess image before caching in memory [http://pic5.ptqy.gitv.tv/image/20150216/d4/2b/a_100010251_m_600_m1_354_490.jpg_333x461]
+02-25 23:40:01.016 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:01.016 D/ImageLoader( 2257): Cache image in memory [http://pic5.ptqy.gitv.tv/image/20150216/d4/2b/a_100010251_m_600_m1_354_490.jpg_333x461]
+02-25 23:40:01.019 D/ImageLoader( 2257): Cache image in memory [assets://cornerHint/huawei_ic_corner_1080p.png_78x63]
+02-25 23:40:01.023 D/ImageLoader( 2257): PreProcess image before caching in memory [http://pic5.ptqy.gitv.tv/image/20150107/ff/ec/a_100009461_m_601_260_360.jpg_333x461]
+02-25 23:40:01.023 D/ImageLoader( 2257): Cache image in memory [http://pic5.ptqy.gitv.tv/image/20150107/ff/ec/a_100009461_m_601_260_360.jpg_333x461]
+02-25 23:40:01.036 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=18 offsetHeight=34 resizeImmediate=false [m
+02-25 23:40:01.037 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=33 offsetTop=8 moveImmediate=false [m
+02-25 23:40:01.040 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:01.040 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:01.049 D/ImageLoader( 2257): Display image in ImageAware (loaded from DISC_CACHE) [http://pic5.ptqy.gitv.tv/image/20150216/d4/2b/a_100010251_m_600_m1_354_490.jpg_333x461]
+02-25 23:40:01.050 D/ImageLoader( 2257): Display image in ImageAware (loaded from NETWORK) [assets://cornerHint/huawei_ic_corner_1080p.png_78x63]
+02-25 23:40:01.051 D/ImageLoader( 2257): Display image in ImageAware (loaded from DISC_CACHE) [http://pic5.ptqy.gitv.tv/image/20150107/ff/ec/a_100009461_m_601_260_360.jpg_333x461]
+02-25 23:40:01.053 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=6 offsetHeight=12 resizeImmediate=false [m
+02-25 23:40:01.054 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=11 offsetTop=0 moveImmediate=false [m
+02-25 23:40:01.055 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:01.056 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:01.068 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=4 offsetHeight=7 resizeImmediate=false [m
+02-25 23:40:01.068 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=7 offsetTop=0 moveImmediate=false [m
+02-25 23:40:01.069 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:01.070 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:01.079 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:01.080 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:01.080 D/ConnectivityService( 1948): Sampling interval elapsed, updating statistics ..
+02-25 23:40:01.082 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:01.082 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:01.083 D/ConnectivityService( 1948): Done.
+02-25 23:40:01.083 D/ConnectivityService( 1948): Setting timer for 30seconds
+02-25 23:40:01.760 D/ImageLoader( 2257): Load image from memory cache [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:01.762 D/p       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.p][getView][-1]:launcher:position=12 convertView=null [m
+02-25 23:40:01.779 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.s{2d4a63e8 VFE..... .FS...ID 840,75-1181,544} [m
+02-25 23:40:01.859 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:01.860 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:01.861 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:01.862 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:02.134 I/HiRMService( 2269):  ***** changeStats = 0
+02-25 23:40:02.575 D/AndroidRuntime(13668): 
+02-25 23:40:02.575 D/AndroidRuntime(13668): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 23:40:02.578 D/AndroidRuntime(13668): CheckJNI is OFF
+02-25 23:40:02.586 I/dalvikvm(13668): DexOpt: mismatch dep signature for '/system/framework/android.policy.odex'
+02-25 23:40:02.586 E/dalvikvm(13668): /system/framework/services.jar odex has stale dependencies
+02-25 23:40:02.587 I/dalvikvm(13668): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:02.587 E/dalvikvm(13668): /system/framework/apache-xml.jar odex has stale dependencies
+02-25 23:40:02.588 I/dalvikvm(13668): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:02.588 E/dalvikvm(13668): /system/framework/webviewchromium.jar odex has stale dependencies
+02-25 23:40:02.595 D/dalvikvm(13668): Trying to load lib libjavacore.so 0x0
+02-25 23:40:02.598 D/dalvikvm(13668): Added shared lib libjavacore.so 0x0
+02-25 23:40:02.603 D/dalvikvm(13668): Trying to load lib libnativehelper.so 0x0
+02-25 23:40:02.603 D/dalvikvm(13668): Added shared lib libnativehelper.so 0x0
+02-25 23:40:02.603 D/dalvikvm(13668): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 23:40:02.621 I/dalvikvm(13668): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:02.621 E/dalvikvm(13668): /system/framework/input.jar odex has stale dependencies
+02-25 23:40:02.624 E/cutils-trace(13668): Error opening trace file: No such file or directory (2)
+02-25 23:40:02.645 D/dalvikvm(13668): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-25 23:40:02.833 E/memtrack(13668): Couldn't load memtrack module (No such file or directory)
+02-25 23:40:02.833 E/android.os.Debug(13668): failed to load memtrack module: -2
+02-25 23:40:02.836 I/EthernetJNI(13668): Loading ethernet jni class
+02-25 23:40:02.904 D/AndroidRuntime(13668): Calling main entry com.android.commands.input.Input
+02-25 23:40:02.905 I/Input   (13668): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22413079, downTime=22413079, deviceId=-1, source=0x101 }
+02-25 23:40:02.910 D/WindowManager( 1948): keyCode =19
+02-25 23:40:02.910 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:02.910 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:02.910 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:02.910 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:02.910 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:02.911 W/ContextImpl( 1948): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1168 com.android.internal.policy.impl.PhoneWindowManager.interceptKeyBeforeQueueing:4109 com.android.server.wm.InputMonitor.interceptKeyBeforeQueueing:357 com.android.server.input.InputManagerService.interceptKeyBeforeQueueing:1352 com.android.server.input.InputManagerService.nativeInjectInputEvent:-2 
+02-25 23:40:02.912 D/WindowManager( 1948): send broadcast key press down
+02-25 23:40:02.915 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=19 [m
+02-25 23:40:02.918 I/Input   (13668): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22413079, downTime=22413079, deviceId=-1, source=0x101 }
+02-25 23:40:02.918 D/WindowManager( 1948): keyCode =19
+02-25 23:40:02.918 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:02.918 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:02.918 D/PosterPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.o][onFocusChange][-1]:launcher:hasFocus=false [m
+02-25 23:40:02.918 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:02.918 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:02.918 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:02.919 D/AudioPolicyManagerBase( 1406): startOutput() output 2, stream 1, session 252
+02-25 23:40:02.919 D/AudioPolicyManagerBase( 1406): startoutput ->setOutputDevice
+02-25 23:40:02.919 D/AudioPolicyManagerBase( 1406): AudioPolicyManagerBase::checkAndSetVolume 13,0.377113
+02-25 23:40:02.920 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.l][onGlobalFocusChanged][-1]:launcher:newFocus=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .FS..... 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:02.920 D/AndroidRuntime(13668): Shutting down VM
+02-25 23:40:02.921 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.e][onGlobalFocusChanged][-1]:launcher:smoothMove [m
+02-25 23:40:02.923 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .FS..... 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:02.924 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][onFocusChange][-1]:launcher:v=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .FS...ID 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:02.925 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=19 [m
+02-25 23:40:02.926 D/ImageLoader( 2257): Load image from memory cache [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:02.927 D/dalvikvm(13668): GC_CONCURRENT freed 98K, 16% free 566K/668K, paused 0ms+1ms, total 3ms
+02-25 23:40:02.928 D/p       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.p][getView][-1]:launcher:position=12 convertView=null [m
+02-25 23:40:02.945 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=-147 offsetHeight=-279 resizeImmediate=false [m
+02-25 23:40:02.945 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=-312 offsetTop=-115 moveImmediate=false [m
+02-25 23:40:02.946 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:02.947 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:02.955 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=-51 offsetHeight=-97 resizeImmediate=false [m
+02-25 23:40:02.955 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=-109 offsetTop=-40 moveImmediate=false [m
+02-25 23:40:02.956 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:02.957 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:02.967 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=-18 offsetHeight=-34 resizeImmediate=false [m
+02-25 23:40:02.968 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=-38 offsetTop=-14 moveImmediate=false [m
+02-25 23:40:02.969 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:02.970 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:02.992 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=-6 offsetHeight=-12 resizeImmediate=false [m
+02-25 23:40:02.992 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=-13 offsetTop=-7 moveImmediate=false [m
+02-25 23:40:02.993 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:02.994 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:03.015 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=-3 offsetHeight=-6 resizeImmediate=false [m
+02-25 23:40:03.016 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=-7 offsetTop=0 moveImmediate=false [m
+02-25 23:40:03.016 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:03.017 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:03.039 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:03.041 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:03.042 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:03.043 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:03.831 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:03.833 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:03.835 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:03.884 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:03.885 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:03.888 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:04.666 D/AndroidRuntime(13680): 
+02-25 23:40:04.666 D/AndroidRuntime(13680): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 23:40:04.668 D/AndroidRuntime(13680): CheckJNI is OFF
+02-25 23:40:04.678 I/dalvikvm(13680): DexOpt: mismatch dep signature for '/system/framework/android.policy.odex'
+02-25 23:40:04.678 E/dalvikvm(13680): /system/framework/services.jar odex has stale dependencies
+02-25 23:40:04.679 I/dalvikvm(13680): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:04.679 E/dalvikvm(13680): /system/framework/apache-xml.jar odex has stale dependencies
+02-25 23:40:04.680 I/dalvikvm(13680): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:04.680 E/dalvikvm(13680): /system/framework/webviewchromium.jar odex has stale dependencies
+02-25 23:40:04.688 D/dalvikvm(13680): Trying to load lib libjavacore.so 0x0
+02-25 23:40:04.691 D/dalvikvm(13680): Added shared lib libjavacore.so 0x0
+02-25 23:40:04.697 D/dalvikvm(13680): Trying to load lib libnativehelper.so 0x0
+02-25 23:40:04.697 D/dalvikvm(13680): Added shared lib libnativehelper.so 0x0
+02-25 23:40:04.697 D/dalvikvm(13680): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 23:40:04.715 I/dalvikvm(13680): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:04.715 E/dalvikvm(13680): /system/framework/input.jar odex has stale dependencies
+02-25 23:40:04.719 E/cutils-trace(13680): Error opening trace file: No such file or directory (2)
+02-25 23:40:04.740 D/dalvikvm(13680): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-25 23:40:04.929 E/memtrack(13680): Couldn't load memtrack module (No such file or directory)
+02-25 23:40:04.929 E/android.os.Debug(13680): failed to load memtrack module: -2
+02-25 23:40:04.932 I/EthernetJNI(13680): Loading ethernet jni class
+02-25 23:40:05.006 D/AndroidRuntime(13680): Calling main entry com.android.commands.input.Input
+02-25 23:40:05.008 I/Input   (13680): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22415182, downTime=22415182, deviceId=-1, source=0x101 }
+02-25 23:40:05.013 D/WindowManager( 1948): keyCode =20
+02-25 23:40:05.013 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:05.013 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:05.013 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:05.013 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:05.013 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:05.014 D/WindowManager( 1948): send broadcast key press down
+02-25 23:40:05.014 W/ContextImpl( 1948): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1168 com.android.internal.policy.impl.PhoneWindowManager.interceptKeyBeforeQueueing:4109 com.android.server.wm.InputMonitor.interceptKeyBeforeQueueing:357 com.android.server.input.InputManagerService.interceptKeyBeforeQueueing:1352 com.android.server.input.InputManagerService.nativeInjectInputEvent:-2 
+02-25 23:40:05.018 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+02-25 23:40:05.019 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.l][onGlobalFocusChanged][-1]:launcher:newFocus=com.huawei.mh2.launcher.a.s{2d4a63e8 VFE..... .FS..... 840,75-1181,544} [m
+02-25 23:40:05.019 I/Input   (13680): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22415182, downTime=22415182, deviceId=-1, source=0x101 }
+02-25 23:40:05.020 D/WindowManager( 1948): keyCode =20
+02-25 23:40:05.020 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:05.020 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:05.020 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:05.020 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:05.020 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:05.021 D/AudioPolicyManagerBase( 1406): startOutput() output 2, stream 1, session 253
+02-25 23:40:05.021 D/AudioPolicyManagerBase( 1406): startoutput ->setOutputDevice
+02-25 23:40:05.021 D/AudioPolicyManagerBase( 1406): AudioPolicyManagerBase::checkAndSetVolume 13,0.377113
+02-25 23:40:05.022 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.e][onGlobalFocusChanged][-1]:launcher:smoothMove [m
+02-25 23:40:05.022 D/AndroidRuntime(13680): Shutting down VM
+02-25 23:40:05.023 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.s{2d4a63e8 VFE..... .FS..... 840,75-1181,544} [m
+02-25 23:40:05.024 D/PosterPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.o][onFocusChange][-1]:launcher:hasFocus=true [m
+02-25 23:40:05.025 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=20 [m
+02-25 23:40:05.026 D/ImageLoader( 2257): Load image from memory cache [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:05.027 D/p       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.p][getView][-1]:launcher:position=12 convertView=null [m
+02-25 23:40:05.028 D/dalvikvm(13680): GC_CONCURRENT freed 98K, 16% free 566K/668K, paused 0ms+0ms, total 4ms
+02-25 23:40:05.049 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=146 offsetHeight=278 resizeImmediate=false [m
+02-25 23:40:05.050 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=317 offsetTop=124 moveImmediate=false [m
+02-25 23:40:05.051 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:05.052 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:05.059 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=51 offsetHeight=97 resizeImmediate=false [m
+02-25 23:40:05.060 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=111 offsetTop=44 moveImmediate=false [m
+02-25 23:40:05.061 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:05.062 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:05.069 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=18 offsetHeight=34 resizeImmediate=false [m
+02-25 23:40:05.070 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=39 offsetTop=15 moveImmediate=false [m
+02-25 23:40:05.070 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:05.071 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:05.095 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=6 offsetHeight=12 resizeImmediate=false [m
+02-25 23:40:05.095 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=13 offsetTop=5 moveImmediate=false [m
+02-25 23:40:05.096 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:05.097 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:05.118 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=4 offsetHeight=7 resizeImmediate=false [m
+02-25 23:40:05.119 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=8 offsetTop=4 moveImmediate=false [m
+02-25 23:40:05.119 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:05.120 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:05.140 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:05.140 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=-6 offsetTop=-11 moveImmediate=false [m
+02-25 23:40:05.141 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:05.142 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): doAutoScanShareAuthjcifs.smb.SmbException: smb://IPTV-PC/
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): java.net.UnknownHostException: IPTV-PC
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at jcifs.UniAddress.getAllByName(UniAddress.java:315)
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.getFirstAddress(SmbFile.java:883)
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.getAddress(SmbFile.java:843)
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.getType(SmbFile.java:1365)
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.doEnum(SmbFile.java:1842)
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.list(SmbFile.java:1801)
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at jcifs.smb.SmbFile.list(SmbFile.java:1678)
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at com.huawei.sambaclient.service.SambaClientService$AutoScanHandler.doAutoScanShareAuth(SambaClientService.java:3277)
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at com.huawei.sambaclient.service.SambaClientService$AutoScanHandler.handleMessage(SambaClientService.java:2661)
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at android.os.Looper.loop(Looper.java:136)
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+02-25 23:40:05.151 D/SambaClientService( 2610): sendMsg2AutoScan success 5
+02-25 23:40:05.151 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SHARE
+02-25 23:40:05.161 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:05.161 D/SambaAutoScanHandler( 2610): server = smb://LINGER-PC/
+02-25 23:40:05.161 D/SambaClientService( 2610): sendMsg2AutoScan success 6
+02-25 23:40:05.161 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SHARE_AUTH_FRDB
+02-25 23:40:05.162 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=-3 offsetTop=-5 moveImmediate=false [m
+02-25 23:40:05.163 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:05.164 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:05.175 D/SambaClientService( 2610): sendMsg2AutoScan success 7
+02-25 23:40:05.175 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SHARE_AUTH_FRSET
+02-25 23:40:05.183 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:05.184 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:05.185 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:05.185 D/SambaAutoScanHandler( 2610): server = smb://LINGER-PC/
+02-25 23:40:05.185 D/SambaAutoScanHandler( 2610): urlServer = smb://LINGER-PC/
+02-25 23:40:05.186 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:05.205 D/dalvikvm( 2610): GC_CONCURRENT freed 417K, 12% free 3675K/4156K, paused 2ms+2ms, total 19ms
+02-25 23:40:05.225 D/SambaClientService( 2610): sendMsg2AutoScan success 8
+02-25 23:40:05.226 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SHARE_AUTH_FRGUEST
+02-25 23:40:05.237 D/SambaAutoScanHandler( 2610): server = smb://LINGER-PC/
+02-25 23:40:05.237 D/SambaAutoScanHandler( 2610): urlServer = smb://LINGER-PC/
+02-25 23:40:05.264 D/SambaClientService( 2610): sendMsg2AutoScan success 9
+02-25 23:40:05.264 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SHARE_AUTH_FRANONY
+02-25 23:40:05.274 D/SambaAutoScanHandler( 2610): server = smb://LINGER-PC/
+02-25 23:40:05.274 D/SambaAutoScanHandler( 2610): urlServer = smb://LINGER-PC/
+02-25 23:40:05.294 D/SambaClientService( 2610): sendMsg2AutoScan success 5
+02-25 23:40:05.294 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SHARE
+02-25 23:40:05.304 D/SambaAutoScanHandler( 2610): server = smb://QUSHAN-PC/
+02-25 23:40:05.304 D/SambaClientService( 2610): sendMsg2AutoScan success 6
+02-25 23:40:05.304 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SHARE_AUTH_FRDB
+02-25 23:40:05.317 D/SambaClientService( 2610): sendMsg2AutoScan success 7
+02-25 23:40:05.317 D/SambaAutoScanHandler( 2610): AutoScanHandler MSG_AUTOSCAN_REQUEST_SHARE_AUTH_FRSET
+02-25 23:40:05.327 D/SambaAutoScanHandler( 2610): server = smb://QUSHAN-PC/
+02-25 23:40:05.327 D/SambaAutoScanHandler( 2610): urlServer = smb://QUSHAN-PC/
+02-25 23:40:05.859 D/ImageLoader( 2257): Load image from memory cache [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:05.862 D/p       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.p][getView][-1]:launcher:position=12 convertView=null [m
+02-25 23:40:05.879 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.s{2d4a63e8 VFE..... .FS...ID 840,75-1181,544} [m
+02-25 23:40:05.959 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:05.959 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:05.961 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:05.962 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:07.798 D/AndroidRuntime(13720): 
+02-25 23:40:07.798 D/AndroidRuntime(13720): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 23:40:07.801 D/AndroidRuntime(13720): CheckJNI is OFF
+02-25 23:40:07.810 I/dalvikvm(13720): DexOpt: mismatch dep signature for '/system/framework/android.policy.odex'
+02-25 23:40:07.810 E/dalvikvm(13720): /system/framework/services.jar odex has stale dependencies
+02-25 23:40:07.811 I/dalvikvm(13720): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:07.811 E/dalvikvm(13720): /system/framework/apache-xml.jar odex has stale dependencies
+02-25 23:40:07.816 I/dalvikvm(13720): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:07.816 E/dalvikvm(13720): /system/framework/webviewchromium.jar odex has stale dependencies
+02-25 23:40:07.824 D/dalvikvm(13720): Trying to load lib libjavacore.so 0x0
+02-25 23:40:07.828 D/dalvikvm(13720): Added shared lib libjavacore.so 0x0
+02-25 23:40:07.835 D/dalvikvm(13720): Trying to load lib libnativehelper.so 0x0
+02-25 23:40:07.835 D/dalvikvm(13720): Added shared lib libnativehelper.so 0x0
+02-25 23:40:07.835 D/dalvikvm(13720): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 23:40:07.855 I/dalvikvm(13720): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:07.855 E/dalvikvm(13720): /system/framework/input.jar odex has stale dependencies
+02-25 23:40:07.860 E/cutils-trace(13720): Error opening trace file: No such file or directory (2)
+02-25 23:40:07.883 D/dalvikvm(13720): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-25 23:40:08.090 E/memtrack(13720): Couldn't load memtrack module (No such file or directory)
+02-25 23:40:08.090 E/android.os.Debug(13720): failed to load memtrack module: -2
+02-25 23:40:08.093 I/EthernetJNI(13720): Loading ethernet jni class
+02-25 23:40:08.171 D/AndroidRuntime(13720): Calling main entry com.android.commands.input.Input
+02-25 23:40:08.173 I/Input   (13720): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22418347, downTime=22418347, deviceId=-1, source=0x101 }
+02-25 23:40:08.179 D/WindowManager( 1948): keyCode =66
+02-25 23:40:08.179 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:08.179 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:08.179 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:08.179 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:08.179 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:08.181 D/WindowManager( 1948): send broadcast key press down
+02-25 23:40:08.181 W/ContextImpl( 1948): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1168 com.android.internal.policy.impl.PhoneWindowManager.interceptKeyBeforeQueueing:4109 com.android.server.wm.InputMonitor.interceptKeyBeforeQueueing:357 com.android.server.input.InputManagerService.interceptKeyBeforeQueueing:1352 com.android.server.input.InputManagerService.nativeInjectInputEvent:-2 
+02-25 23:40:08.184 I/Input   (13720): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22418347, downTime=22418347, deviceId=-1, source=0x101 }
+02-25 23:40:08.184 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=66 [m
+02-25 23:40:08.185 D/WindowManager( 1948): keyCode =66
+02-25 23:40:08.185 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:08.185 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:08.185 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:08.185 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:08.185 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:08.188 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=66 [m
+02-25 23:40:08.189 D/AudioPolicyManagerBase( 1406): startOutput() output 2, stream 1, session 254
+02-25 23:40:08.189 D/AudioPolicyManagerBase( 1406): startoutput ->setOutputDevice
+02-25 23:40:08.189 D/AudioPolicyManagerBase( 1406): AudioPolicyManagerBase::checkAndSetVolume 13,0.377113
+02-25 23:40:08.191 I/EthernetService( 1948): getWifiDisguiseState: STATE UNKNOWN
+02-25 23:40:08.191 I/EthernetManager( 1948): getWifiDisguiseState2
+02-25 23:40:08.191 D/g       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.b.g][a][-1]:launcher:dataInfo = id=0232ebdd3b18d801e3f158650792156f,type=0,title=中国梦想秀之折纸狂人盼圆妻子羊驼之梦,classTag=null,sort=null,filterTag=null,obj=com.qiyi.tv.client.data.Video@2d4cfb18 [m
+02-25 23:40:08.191 I/EthernetService( 1948): getWifiDisguiseState: STATE UNKNOWN
+02-25 23:40:08.191 I/EthernetService( 1948): getWifiDisguiseState: STATE UNKNOWN
+02-25 23:40:08.191 I/EthernetManager( 1948): getWifiDisguiseState2
+02-25 23:40:08.191 I/EthernetService( 1948): getWifiDisguiseState: STATE UNKNOWN
+02-25 23:40:08.192 D/g       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.b.g][a][-1]:launcher:type = 0 [m
+02-25 23:40:08.194 D/g       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.b.g][i][-1]:launcher:isNetworkReachable [m
+02-25 23:40:08.209 D/ClientHelper( 2257): isConnected() ClientHelper@2c9af570{mCurrentState=2, mTargetState=2, mAuthSuccess=true, mListener=com.qiyi.tv.client.project.BaseClient$ProxyListener@2c9ef300, mService=com.qiyi.tv.client.IQiyiService$Stub$Proxy@2ef93858}
+02-25 23:40:08.209 D/ClientHelper( 2257): isAuthSuccess() ClientHelper@2c9af570{mCurrentState=2, mTargetState=2, mAuthSuccess=true, mListener=com.qiyi.tv.client.project.BaseClient$ProxyListener@2c9ef300, mService=com.qiyi.tv.client.IQiyiService$Stub$Proxy@2ef93858}
+02-25 23:40:08.209 D/Utils   ( 2257): dumpBundle() copyBundle() target=: bundle size=3
+02-25 23:40:08.210 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+02-25 23:40:08.210 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+02-25 23:40:08.210 D/Utils   ( 2257): dumpBundle() copyBundle() target=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+02-25 23:40:08.210 D/Utils   ( 2257): dumpBundle() copyBundle() source=: bundle size=2
+02-25 23:40:08.210 D/Utils   ( 2257): dumpBundle() copyBundle() source=: key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+02-25 23:40:08.211 D/Utils   ( 2257): dumpBundle() copyBundle() source=: key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2d4cfb18
+02-25 23:40:08.211 D/Utils   ( 2257): dumpBundle() copyBundle() final=: bundle size=5
+02-25 23:40:08.211 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+02-25 23:40:08.212 D/g       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.b.g][i][-1]:launcher:isNetworkReachable return true [m
+02-25 23:40:08.212 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+02-25 23:40:08.212 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+02-25 23:40:08.212 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2d4cfb18
+02-25 23:40:08.212 D/Utils   ( 2257): dumpBundle() copyBundle() final=: key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+02-25 23:40:08.212 D/ClientHelper( 2257): isConnected() ClientHelper@2c9af570{mCurrentState=2, mTargetState=2, mAuthSuccess=true, mListener=com.qiyi.tv.client.project.BaseClient$ProxyListener@2c9ef300, mService=com.qiyi.tv.client.IQiyiService$Stub$Proxy@2ef93858}
+02-25 23:40:08.213 D/ClientHelper( 2257): isAuthSuccess() ClientHelper@2c9af570{mCurrentState=2, mTargetState=2, mAuthSuccess=true, mListener=com.qiyi.tv.client.project.BaseClient$ProxyListener@2c9ef300, mService=com.qiyi.tv.client.IQiyiService$Stub$Proxy@2ef93858}
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() begin. bundle size=5
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TYPE]=20001
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_INTENT_FLAG]=335577088
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_DATA_TYPE]=30000
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_VIDEO]=com.qiyi.tv.client.data.Video@2f05f300
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() begin. key[com.qiyi.tv.sdk.extra.EXTRA_OPERATION_TARGET]=10201
+02-25 23:40:08.214 D/OpenApiManager( 2323): isAllowedClient() pid=2257, holder=Holder(code=0, client=ClientInfo(vn=2.0, vc=24956, pk=com.huawei.mh2.launcher)) return true
+02-25 23:40:08.214 D/OpenApiBinder( 2323): invoke() find command=com.qiyi.video.openplay.service.feature.open.OpenMediaCommand@2c923c50
+02-25 23:40:08.215 D/ProcessWatcher( 2323): getToken() 2257 return AccessToken@{count=1, time=1424936197005, duration=3600000, maxCount=3600000, interval=0)
+02-25 23:40:08.215 D/AccessToken( 2323): isAllowedAccess() now = 1424936408215, mMaxCount = 3600000
+02-25 23:40:08.215 D/AccessToken( 2323): isAllowedAccess() count=1, time=1424936197005, return true
+02-25 23:40:08.215 D/LocalVideo( 2323): LocalVideo(com.qiyi.tv.client.data.Video@2f05f300) LocalVideo(mType=1, mId=349989700, mName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mChannelId=6, mAlbumId=202509101, mIsSeries=true, mStartTime=0, mCornerHint=3, mPicUrl=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg, mUserTags=Bundle@[size=2,com.qiyi.tv.internal.extra.EXTRA_TYPE=0],com.qiyi.tv.internal.extra.EXTRA_SOURCE_CODE=202509101])
+02-25 23:40:08.216 D/OpenApiUtils( 2323): createChannelLabel(LocalVideo(mType=1, mId=349989700, mName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mChannelId=6, mAlbumId=202509101, mIsSeries=true, mStartTime=0, mCornerHint=3, mPicUrl=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg, mUserTags=Bundle@[size=2,com.qiyi.tv.internal.extra.EXTRA_TYPE=0],com.qiyi.tv.internal.extra.EXTRA_SOURCE_CODE=202509101]))
+02-25 23:40:08.216 D/OpenApiUtils( 2323): createChannelLabel() return null
+02-25 23:40:08.216 D/OpenApiUtils( 2323): createAlbum(LocalVideo(mType=1, mId=349989700, mName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mChannelId=6, mAlbumId=202509101, mIsSeries=true, mStartTime=0, mCornerHint=3, mPicUrl=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg, mUserTags=Bundle@[size=2,com.qiyi.tv.internal.extra.EXTRA_TYPE=0],com.qiyi.tv.internal.extra.EXTRA_SOURCE_CODE=202509101]))
+02-25 23:40:08.216 D/OpenApiUtils( 2323): createAlbum() return qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null
+02-25 23:40:08.217 D/OpenApiUtils( 2323): createAlbum() return Album@2eeab638{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, sourceCode=202509101, isPurchase()=false, isExclusive()=false, isSeries()=true, playOrder=1, tvPic=, issueTime=, playCount=, playLength=, tvCount=0, tag=, cornerMark=CORNERMARK_NO, is3D()=false, definition list=, chnId=6, chnName=, startTime=0, endTime=0, playTime=-1, canDownload=false, bkt=, area=}
+02-25 23:40:08.217 D/PlayerUtils( 2323): >> startPlayerWithPlayList: albumInfo=Album@2eeab638{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, sourceCode=202509101, isPurchase()=false, isExclusive()=false, isSeries()=true, playOrder=1, tvPic=, issueTime=, playCount=, playLength=, tvCount=0, tag=, cornerMark=CORNERMARK_NO, is3D()=false, definition list=, chnId=6, chnName=, startTime=0, endTime=0, playTime=-1, canDownload=false, bkt=, area=}, playOrder=1, from=out, playParams=PlayParams@2eea9c38{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}
+02-25 23:40:08.217 D/PlayerUtils( 2323): add clear task flag
+02-25 23:40:08.217 D/PlayerUtils( 2323): fillOutsideInfoIfNeed() fill out album info!
+02-25 23:40:08.236 I/ActivityManager( 1948): START u0 {flg=0x14008000 cmp=com.qiyi.tvplayer.huawei/com.qiyi.video.player.PlayerActivity (has extras)} from pid 2323
+02-25 23:40:08.277 D/dalvikvm( 1948): GC_FOR_ALLOC freed 747K, 17% free 7608K/9080K, paused 40ms, total 40ms
+02-25 23:40:08.280 D/AlbumDetail/Activity( 2323): onDestroy
+02-25 23:40:08.280 I/QBaseActivity( 2323): onDestroy this = com.qiyi.video.ui.detail.QAlbumDetailActivity@2f0f1cd8
+02-25 23:40:08.280 I/QBaseActivity( 2323): onDestroy refCount = 1
+02-25 23:40:08.280 D/AlbumDetailOfflineManager( 2323): Unregister storage listener
+02-25 23:40:08.280 D/LocalStorageManager( 2323): stopListening() mListening=true
+02-25 23:40:08.283 D/ParamsHelper( 2323): setResultCode(0)
+02-25 23:40:08.283 D/LocalStorageManager( 2323): unregisterListener(com.qiyi.video.ui.detail.AlbumDetailOfflineManager$7@2dab5c30) return true
+02-25 23:40:08.283 D/ProcessWatcher( 2323): getToken() 2257 return AccessToken@{count=1, time=1424936197005, duration=3600000, maxCount=3600000, interval=0)
+02-25 23:40:08.283 D/AccessToken( 2323): increaseAccessCount() count=2
+02-25 23:40:08.284 D/OpenApiBinder( 2323): invoke() end. bundle size=2
+02-25 23:40:08.284 D/OpenApiBinder( 2323): invoke() end. key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+02-25 23:40:08.284 D/OpenApiBinder( 2323): invoke() end. key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+02-25 23:40:08.285 D/Utils   ( 2257): dumpBundle() parseResultCode(): bundle size=2
+02-25 23:40:08.285 E/EpisodeListView( 2323): onDetachedFromWindow()
+02-25 23:40:08.286 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+02-25 23:40:08.286 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+02-25 23:40:08.286 D/ParamsHelper( 2257): parseResultCode() return 0
+02-25 23:40:08.287 W/CommandRunner( 2257): executeCommand() [0] break for code=0, serverContinue=false
+02-25 23:40:08.287 D/Utils   ( 2257): dumpBundle() executeCommand(): bundle size=2
+02-25 23:40:08.287 D/Utils   ( 2257): dumpBundle() executeCommand(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+02-25 23:40:08.287 D/Utils   ( 2257): dumpBundle() executeCommand(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+02-25 23:40:08.288 D/ParamsHelper( 2257): setResultCode(0)
+02-25 23:40:08.288 D/Utils   ( 2257): dumpBundle() parseResultCode(): bundle size=2
+02-25 23:40:08.288 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_RESULT_CODE]=0
+02-25 23:40:08.288 D/Utils   ( 2257): dumpBundle() parseResultCode(): key[com.qiyi.tv.sdk.extra.EXTRA_COMMAND_CONTINUE]=false
+02-25 23:40:08.288 D/ParamsHelper( 2257): parseResultCode() return 0
+02-25 23:40:08.289 D/AndroidRuntime(13720): Shutting down VM
+02-25 23:40:08.291 I/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][c][-1]:launcher:pause [m
+02-25 23:40:08.291 W/ContextImpl( 2257): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1168 android.content.ContextWrapper.sendBroadcast:365 android.app.ActivityThread.performPauseActivity:3061 android.app.ActivityThread.performPauseActivity:3023 android.app.ActivityThread.handlePauseActivity:3001 
+02-25 23:40:08.296 D/dalvikvm(13720): GC_CONCURRENT freed 98K, 16% free 566K/668K, paused 3ms+0ms, total 6ms
+02-25 23:40:08.298 I/QBaseActivity( 2323): onCreate mRefCount = 2
+02-25 23:40:08.298 I/QBaseActivity( 2323): onCreate this = com.qiyi.video.player.PlayerActivity@2dafadc8
+02-25 23:40:08.307 D/skia    ( 2323): ---- fAsset->read(1024) returned 0
+02-25 23:40:08.307 D/skia    ( 2323): ---- fAsset->read(1024) returned 0
+02-25 23:40:08.372 D/dalvikvm( 2323): GC_FOR_ALLOC freed 5477K, 54% free 21931K/47192K, paused 54ms, total 54ms
+02-25 23:40:08.397 D/MovieVideoView( 2323): addCallback(com.qiyi.video.player.player.MovieVideoView$1@2ef093b0)
+02-25 23:40:08.397 D/Player/Utils( 2323): assertTrue() pass! msg=should initliaze MovieManager first!!
+02-25 23:40:08.397 D/MovieVideoView( 2323): init() format=0
+02-25 23:40:08.432 D/dalvikvm( 2323): GC_FOR_ALLOC freed 1521K, 55% free 21399K/47192K, paused 32ms, total 32ms
+02-25 23:40:08.445 I/dalvikvm-heap( 2323): Grow heap (frag case) to 28.864MB for 8294416-byte allocation
+02-25 23:40:08.480 D/dalvikvm( 2323): GC_FOR_ALLOC freed <1K, 38% free 29498K/47192K, paused 35ms, total 35ms
+02-25 23:40:08.519 D/dalvikvm( 2323): GC_CONCURRENT freed <1K, 38% free 29498K/47192K, paused 2ms+5ms, total 39ms
+02-25 23:40:08.529 D/BasePlayActivity( 2323): init: get bundle=Bundle[mParcelledData.dataSize=2148]
+02-25 23:40:08.550 D/Player/Pingback/PingbackSender( 2323): initialize: s1=1, s2=out, seId=null, context=com.qiyi.video.player.PlayerActivity@2dafadc8
+02-25 23:40:08.550 D/Player/Pingback/PingbackSender( 2323): getS2FromScreenMode(mode:com.qiyi.video.player.QiyiVideoPlayer$ScreenMode$1@2c9c0f00, s2:out)
+02-25 23:40:08.550 D/Player/Pingback/PingbackSender( 2323): getS2FromScreenMode: result=out
+02-25 23:40:08.550 D/Player/Pingback/MyPingback( 2323): >> initialize(s1:1, s2:out,seId:null)
+02-25 23:40:08.550 D/PlayerController[2ca9db70]( 2323): setupVideo(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2cbf8220{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+02-25 23:40:08.551 I/EthernetService( 1948): getWifiDisguiseState: STATE UNKNOWN
+02-25 23:40:08.551 I/EthernetManager( 1948): getWifiDisguiseState2
+02-25 23:40:08.551 I/EthernetService( 1948): getWifiDisguiseState: STATE UNKNOWN
+02-25 23:40:08.551 D/ConnectivityService( 1948): mActiveDefaultNetwork = 9
+02-25 23:40:08.553 D/Player/Utils( 2323): isNetworkAvaliable() state=2, return true
+02-25 23:40:08.553 D/VideoProvider( 2323): createSourceLoader(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2cbf8220{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+02-25 23:40:08.553 D/VideoProvider( 2323): createSourceLoader() sourceTypeObj=2
+02-25 23:40:08.553 D/VideoProvider( 2323): createSourceLoader() playtype=OUTSIDE
+02-25 23:40:08.554 D/VideoProvider( 2323): createSourceLoader() intent AlbumInfo=Album@2f08c2a0{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, sourceCode=202509101, isPurchase()=false, isExclusive()=false, isSeries()=true, playOrder=1, tvPic=, issueTime=, playCount=, playLength=, tvCount=0, tag=, cornerMark=CORNERMARK_NO, is3D()=false, definition list=, chnId=6, chnName=, startTime=0, endTime=0, playTime=-1, canDownload=false, bkt=, area=}
+02-25 23:40:08.554 D/VideoProvider( 2323): createSourceLoader() params=PlayParams@2cbf8220{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}
+02-25 23:40:08.555 D/VideoItem@2f077cf8( 2323): VideoItem(com.qiyi.video.player.data.provider.VideoProvider@2da9e750, Album@2f08c2a0{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, sourceCode=202509101, isPurchase()=false, isExclusive()=false, isSeries()=true, playOrder=1, tvPic=, issueTime=, playCount=, playLength=, tvCount=0, tag=, cornerMark=CORNERMARK_NO, is3D()=false, definition list=, chnId=6, chnName=, startTime=0, endTime=0, playTime=-1, canDownload=false, bkt=, area=})
+02-25 23:40:08.555 D/VideoItem@2f077cf8( 2323): isTvSeries(): isSeries=true, sourceCode()=202509101, return=false
+02-25 23:40:08.555 D/VideoItem@2f077cf8( 2323): updatePictureUrl: isVertical=false, mPictureUrl=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg
+02-25 23:40:08.555 D/VideoItem@2f077cf8( 2323): updateDefinitions(Album@2f08c2a0, stream=)
+02-25 23:40:08.555 D/Player/Data/VideoDefinition( 2323): VideoDefinition.<init>: def list=VideoDefinition{Definition[value:2, null, weight:2], }
+02-25 23:40:08.555 D/Player/Data/VideoDefinition( 2323): setAutoDefinition(true)
+02-25 23:40:08.556 D/Player/Data/Definition( 2323): get(4)
+02-25 23:40:08.556 D/Player/Data/Definition( 2323): isDefinitionSupported(4) return true
+02-25 23:40:08.556 D/Player/Data/VideoDefinition( 2323): >> getMostSuitableDefinition: all=VideoDefinition{Definition[value:2, null, weight:2], }, setting=3
+02-25 23:40:08.556 D/Player/Data/VideoDefinition( 2323): closestNormal = Definition[value:2, null, weight:2],closestDolby=null,closestH265=null,setting=Definition[value:4, null, weight:3],ret=Definition[value:2, null, weight:2]
+02-25 23:40:08.556 D/Player/Data/VideoDefinition( 2323): << getMostSuitableDefinition: mostSuitable=Definition[value:2, null, weight:2]
+02-25 23:40:08.556 D/VideoItem@2f077cf8( 2323): setCurDefinition(Definition[value:2, null, weight:2]) mVrsVidMap=null, vrsVid=null
+02-25 23:40:08.556 D/VideoItem@2f077cf8( 2323): setCurDefinition() mIsDolby=false, vrsVid=null, getVrsVid()=null, device support dolby=true
+02-25 23:40:08.556 W/Bundle  ( 2323): Key history expected String but value was a java.lang.Integer.  The default value <null> was returned.
+02-25 23:40:08.558 W/Bundle  ( 2323): Attempt to cast generated internal exception:
+02-25 23:40:08.558 W/Bundle  ( 2323): java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at android.os.Bundle.getString(Bundle.java:1121)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at com.qiyi.video.player.data.provider.VideoProvider.fillOutInfo(VideoProvider.java:578)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at com.qiyi.video.player.data.provider.VideoProvider.createSourceLoader(VideoProvider.java:510)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at com.qiyi.video.player.data.provider.VideoProvider.<init>(VideoProvider.java:69)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at com.qiyi.video.player.app.PlayerController.setupVideo(PlayerController.java:158)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at com.qiyi.video.player.app.PlayerController.<init>(PlayerController.java:140)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at com.qiyi.video.player.QiyiVideoPlayer.<init>(QiyiVideoPlayer.java:85)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at com.qiyi.video.player.QiyiVideoPlayer.createVideoPlayer(QiyiVideoPlayer.java:435)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at com.qiyi.video.player.BasePlayActivity.init(BasePlayActivity.java:114)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at com.qiyi.video.player.BasePlayActivity.onCreate(BasePlayActivity.java:59)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at android.app.Activity.performCreate(Activity.java:5231)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at android.os.Looper.loop(Looper.java:136)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at android.app.ActivityThread.main(ActivityThread.java:5030)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at java.lang.reflect.Method.invoke(Method.java:515)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+02-25 23:40:08.558 W/Bundle  ( 2323): 	at dalvik.system.NativeStart.main(Native Method)
+02-25 23:40:08.558 W/Player/Utils( 2323): parse(null) error!
+02-25 23:40:08.558 D/VideoItem@2f077cf8( 2323): setVideoPlayTime(-1)
+02-25 23:40:08.558 D/VideoProvider( 2323): fillOutInfo() vrsAlbumId=202509101, vrsTvId=349989700, videoProgress=null, vrsVid=null, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦
+02-25 23:40:08.559 D/VideoProvider( 2323): createSourceLoader() return com.qiyi.video.player.data.loader.OutsideLoader@2f2313e0, video=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}
+02-25 23:40:08.560 D/Playlist( 2323): Position(-1, -1)
+02-25 23:40:08.560 D/Playlist( 2323): Position(-1, -1)
+02-25 23:40:08.560 D/Player/Utils( 2323): assertTrue() pass! msg=should keep mCurrent is not NULL!
+02-25 23:40:08.560 D/VideoProvider( 2323): addListener(com.qiyi.video.player.app.PlayerController$1@2cc973d8)
+02-25 23:40:08.560 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$1@2cc973d8) return true
+02-25 23:40:08.560 D/PlayerOverlay( 2323):  PlayerOverlay.<init>: mSourceType=OUTSIDE, initByWindowMode=false
+02-25 23:40:08.560 D/MediaControllerContainer( 2323): setWindowMode(true)
+02-25 23:40:08.560 D/MediaControllerContainer( 2323): setOnUserPlayPauseListener(com.qiyi.video.player.ui.layout.PlayerOverlay$8@2cb05b40) size=0
+02-25 23:40:08.560 D/MediaControllerContainer( 2323): setOnUserSeekListener(com.qiyi.video.player.ui.layout.PlayerOverlay$5@2cb32788) size=0
+02-25 23:40:08.560 D/MediaControllerContainer( 2323): updateView(false, OUTSIDE) 1, config show 3d = true
+02-25 23:40:08.560 D/MediaControllerContainer( 2323): clear()
+02-25 23:40:08.594 D/dalvikvm( 2323): GC_FOR_ALLOC freed 288K, 38% free 29528K/47192K, paused 32ms, total 32ms
+02-25 23:40:08.645 D/dalvikvm( 2323): GC_CONCURRENT freed 1K, 21% free 37627K/47192K, paused 3ms+5ms, total 38ms
+02-25 23:40:08.700 I/HaloSeekBar( 2323): mThumb padding = Rect(2, 5 - 2, 6)
+02-25 23:40:08.715 D/VolumeView( 2323): showVolume() mCurVolume=0, mMaxVolume=0
+02-25 23:40:08.739 I/HaloSeekBar( 2323): mThumb padding = Rect(2, 5 - 2, 6)
+02-25 23:40:08.753 D/VolumeView( 2323): showVolume() mCurVolume=0, mMaxVolume=0
+02-25 23:40:08.758 D/AbsMediaController( 2323): setOnUserPlayPauseListener(com.qiyi.video.player.ui.layout.MediaControllerContainer$1@2eeeaed8)
+02-25 23:40:08.758 D/AbsMediaController( 2323): setOnUserSeekListener(com.qiyi.video.player.ui.layout.MediaControllerContainer$2@2ee8ebd8)
+02-25 23:40:08.758 D/MediaControllerOverlay( 2323): setThreeDimensional(false)
+02-25 23:40:08.758 D/EnhancedTextView( 2323): setThreeDimensional(false)
+02-25 23:40:08.758 D/EnhancedTextView( 2323): setThreeDimensional(false)
+02-25 23:40:08.758 D/EnhancedTextView( 2323): setThreeDimensional(false)
+02-25 23:40:08.758 D/EnhancedTextView( 2323): setThreeDimensional(false)
+02-25 23:40:08.758 D/EnhancedImageView( 2323): setThreeDimensional(false)
+02-25 23:40:08.758 D/EnhancedImageView( 2323): setThreeDimensional mWidth = 203
+02-25 23:40:08.759 D/EnhancedImageView( 2323): setThreeDimensional lp.width = 203
+02-25 23:40:08.759 D/EnhancedImageView( 2323): setThreeDimensional(false)
+02-25 23:40:08.759 D/EnhancedImageView( 2323): setThreeDimensional mWidth = 195
+02-25 23:40:08.759 D/EnhancedImageView( 2323): setThreeDimensional lp.width = 195
+02-25 23:40:08.759 D/EnhancedImageView( 2323): setThreeDimensional(false)
+02-25 23:40:08.759 D/EnhancedImageView( 2323): setThreeDimensional mWidth = 56
+02-25 23:40:08.759 D/EnhancedImageView( 2323): setThreeDimensional lp.width = 56
+02-25 23:40:08.759 D/MediaControllerOverlay( 2323): setMaxVolume(0)
+02-25 23:40:08.759 D/VolumeView( 2323): setMaxVolume(0)
+02-25 23:40:08.759 D/MediaControllerOverlay( 2323): setVideoInfo(null, 0, 0)
+02-25 23:40:08.761 I/AbsMenuPanel( 2323): hide
+02-25 23:40:08.761 D/AbsMenuPanel( 2323): notifyVisibilityChange(false)
+02-25 23:40:08.761 D/AbsPlayerOverlay( 2323): notifyMenuPanelVisibilityChange(false)
+02-25 23:40:08.761 D/MediaControllerContainer( 2323): hideHeader()
+02-25 23:40:08.761 D/MediaControllerOverlay( 2323): hideHeader() mShowHeader=false
+02-25 23:40:08.761 D/MediaControllerOverlay( 2323): doHide() com.qiyi.video.project.configs.huawei.layout.HuaweiMediaControllerOverlay{2cbec238 G.E..... ......I. 0,0-0,0}[mState=0, mShowHeader=false, mBuffering=false, mTipShown=false, mSeeking=false, mIsFullScreen=true]
+02-25 23:40:08.761 D/MediaControllerOverlay( 2323): clearHideViewMessageQueue()
+02-25 23:40:08.761 D/TimedSeekBar( 2323): stopTipMode() mIsTipMode=false
+02-25 23:40:08.761 D/TimedSeekBar( 2323): hide()
+02-25 23:40:08.761 D/MediaControllerOverlay( 2323): hideView() Views[Adtime,VideoName,Systime,Pause,Seekbar,]
+02-25 23:40:08.761 D/MediaControllerOverlay( 2323): tip view id:2131100038
+02-25 23:40:08.762 D/CountDownView( 2323): hide()
+02-25 23:40:08.762 D/AbsPlayerOverlay( 2323): setOnUserDefinitionChangeListener(com.qiyi.video.player.app.PlayerController$7@2ca9eb88)
+02-25 23:40:08.762 D/AbsPlayerOverlay( 2323): setOnUserPlayPauseListener(com.qiyi.video.player.app.PlayerController$3@2cbf8810)
+02-25 23:40:08.762 D/DownloadViewManager( 2323): >> setDownloadView: old={null}, new={null}
+02-25 23:40:08.762 D/BufferUpdater( 2323): addListener(com.qiyi.video.player.app.PlayerController$9@2ca84d50)
+02-25 23:40:08.763 D/BufferUpdater( 2323): startAutomatically() mPlayer=null, mListener=[com.qiyi.video.player.app.PlayerController$9@2ca84d50]
+02-25 23:40:08.764 D/MediaControllerContainer( 2323): setMaxVolume(15)
+02-25 23:40:08.764 D/MediaControllerOverlay( 2323): setMaxVolume(15)
+02-25 23:40:08.764 D/VolumeView( 2323): setMaxVolume(15)
+02-25 23:40:08.764 D/ProgressUpdater( 2323): addOverlay(com.qiyi.video.player.ui.layout.PlayerOverlay@2cb29cb0)
+02-25 23:40:08.764 D/ProgressUpdater( 2323): addOverlay(com.qiyi.video.player.app.EventInput@2cb86e40)
+02-25 23:40:08.764 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$15@2ca64d50) return true
+02-25 23:40:08.765 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$16@2cbd6ea8) return true
+02-25 23:40:08.765 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.HistoryRecorder@2ee9f358) return true
+02-25 23:40:08.765 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.ProjectEventReporter@2dc2b028) return true
+02-25 23:40:08.765 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.ScreenSaverStarter@2dc2af50) return true
+02-25 23:40:08.765 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.ErrorHelper@2ca89648) return true
+02-25 23:40:08.766 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.ProgressUpdater@2dc183d8) return true
+02-25 23:40:08.766 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.766 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.MessageReminder@2cbe9e20) return true
+02-25 23:40:08.766 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.BufferUpdater@2cbf82c8) return true
+02-25 23:40:08.766 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.766 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.BufferUpdater@2cbf82c8) return true
+02-25 23:40:08.766 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.ProjectEventReporter@2dc2b028) return true
+02-25 23:40:08.766 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.MessageReminder@2cbe9e20) return true
+02-25 23:40:08.766 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.766 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$20@2dbdb4b8) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.HistoryRecorder@2ee9f358) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.ProjectEventReporter@2dc2b028) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.MessageReminder@2cbe9e20) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$17@2ca5af18) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.MessageReminder@2cbe9e20) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$19@2c952e70) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$18@2c9d5090) return true
+02-25 23:40:08.767 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$2@2cc24de8) return true
+02-25 23:40:08.768 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.ProgressUpdater@2dc183d8) return true
+02-25 23:40:08.768 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.768 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.768 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$6@2cab63d8) return true
+02-25 23:40:08.768 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.768 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.768 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$5@2cb5cbf8) return true
+02-25 23:40:08.768 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.768 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.769 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$4@2cbea720) return true
+02-25 23:40:08.769 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.769 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.ProgressUpdater@2dc183d8) return true
+02-25 23:40:08.769 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.MessageReminder@2cbe9e20) return true
+02-25 23:40:08.769 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.ProgressUpdater@2dc183d8) return true
+02-25 23:40:08.769 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.769 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.769 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.MessageReminder@2cbe9e20) return true
+02-25 23:40:08.770 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.770 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.770 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.770 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.770 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.770 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerStatusRecorder@2dc084f0) return true
+02-25 23:40:08.770 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PlayerController$12@2ca7d510) return true
+02-25 23:40:08.770 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.PingbackSender@2cb25750) return true
+02-25 23:40:08.770 D/Observable<T>( 2323): addListener(com.qiyi.video.player.app.BufferUpdater@2cbf82c8) return true
+02-25 23:40:08.770 D/AbsHybridPlayer[2cc78368]( 2323): AbsHybridPlayer(true) mMainHandler=Handler (android.os.Handler) {2caab530}
+02-25 23:40:08.770 D/MovieVideoView( 2323): addCallback(com.qiyi.video.player.player.MoviePlayer$1@2cb2cbe0)
+02-25 23:40:08.770 D/DispatcherCenter( 2323): registerPlayer(MoviePlayer@2cc78368, player type=-1) mPlayer=null
+02-25 23:40:08.770 D/DispatcherCenter( 2323): unregisterPlayer(MoviePlayer@2cc78368, player type=-1) mPlayer=null
+02-25 23:40:08.770 D/DispatcherCenter( 2323): registerPlayer() new player=MoviePlayer@2cc78368, player type=-1
+02-25 23:40:08.770 D/AbsHybridPlayer[2cc78368]( 2323): setOnBitStreamChangedListener(com.qiyi.video.player.app.DispatcherCenter$OnBitStreamChangedDispatcher@2cbe0470)
+02-25 23:40:08.771 D/AbsHybridPlayer[2cc78368]( 2323): setOnBufferChangedListener(com.qiyi.video.player.app.DispatcherCenter$OnBufferChangedDispatcher@2cbe03c8)
+02-25 23:40:08.771 D/AbsHybridPlayer[2cc78368]( 2323): setOnInfoListener(com.qiyi.video.player.app.DispatcherCenter$OnInfoDispatcher@2cbdfee0)
+02-25 23:40:08.771 D/AbsHybridPlayer[2cc78368]( 2323): setOnPlayNextListener(com.qiyi.video.player.app.DispatcherCenter$OnPlayNextDispatcher@2cbdf918)
+02-25 23:40:08.771 D/AbsHybridPlayer[2cc78368]( 2323): setOnSeekChangedListener(com.qiyi.video.player.app.DispatcherCenter$OnSeekChangedDispatcher@2cbdfe20)
+02-25 23:40:08.771 D/AbsHybridPlayer[2cc78368]( 2323): setOnStateChangedListener(com.qiyi.video.player.app.DispatcherCenter$OnStateChangedDispatcher@2cbe0518)
+02-25 23:40:08.771 D/AbsHybridPlayer[2cc78368]( 2323): setOnSubtitleUpdateListener(com.qiyi.video.player.app.DispatcherCenter$OnSubtitleUpdateDispatcher@2cbdf9c0)
+02-25 23:40:08.771 D/AbsHybridPlayer[2cc78368]( 2323): setOnVideoSizeChangedListener(com.qiyi.video.player.app.DispatcherCenter$OnVideoSizeChangedDispatcher@2cbdfa68)
+02-25 23:40:08.771 D/AbsHybridPlayer[2cc78368]( 2323): setOnCacheUpdateListener(com.qiyi.video.player.app.DispatcherCenter$OnCacheUpdateDispatcher@2cbe0310)
+02-25 23:40:08.771 D/AbsHybridPlayer[2cc78368]( 2323): setOnPreprocessListener(com.qiyi.video.player.app.DispatcherCenter$OnPreprocessDispatcher@2cbde220)
+02-25 23:40:08.771 D/AbsPlayerOverlay( 2323): setOnUserSeekListener(com.qiyi.video.player.app.DispatcherCenter$OnUserSeekDispatcher@2cbdf870)
+02-25 23:40:08.771 D/AbsPlayerOverlay( 2323): setOnUserVideoChangeListener(com.qiyi.video.player.app.DispatcherCenter$OnUserVideoChangeDispatcher@2cbdf7c8)
+02-25 23:40:08.771 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): setOnUserVideoChangeListener:com.qiyi.video.player.app.DispatcherCenter$OnUserVideoChangeDispatcher@2cbdf7c8
+02-25 23:40:08.771 D/AbsPlayerOverlay( 2323): setOnUserReplayListener(com.qiyi.video.player.app.DispatcherCenter$OnUserReplayDispatcher@2cbdf720)
+02-25 23:40:08.771 D/AbsPlayerOverlay( 2323): setOnUserSkipHeadTailChangeListener(com.qiyi.video.player.app.DispatcherCenter$OnUserSkipHeadTailChangeDispatcher@2cbd7580)
+02-25 23:40:08.771 D/AbsPlayerOverlay( 2323): setBottomPanelListener(com.qiyi.video.player.app.DispatcherCenter$OnBottomPanelEventDispatcher@2cbde178)
+02-25 23:40:08.771 D/AbsPlayerOverlay( 2323): setOnUserDefinitionChangeListener(com.qiyi.video.player.app.DispatcherCenter$OnMenuPanelVisibilityChangeDispatcher@2cbd7548)
+02-25 23:40:08.771 D/VideoProvider( 2323): startLoad() mCurrentLoader=com.qiyi.video.player.data.loader.OutsideLoader@2f2313e0
+02-25 23:40:08.771 D/VideoLoader( 2323): fullLoad() mFullLoading=false, mPreLoading=false
+02-25 23:40:08.772 D/VideoLoader( 2323): preLoad() mFullLoading=false, mPreLoading=false
+02-25 23:40:08.780 D/FetchVrsDefinitionHeadTailJob( 2323): <init>(VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, , )
+02-25 23:40:08.781 D/VideoJobSwitcher( 2323): link(com.qiyi.video.player.data.loader.OutsideLoader$2@2cb5b298, Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchHistoryOfAlbumJob@2cd60af8])
+02-25 23:40:08.782 D/VideoJobSwitcher( 2323): link(com.qiyi.video.player.data.loader.OutsideLoader$1@2cb5b5f8, Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchHistoryJob@2cc97058])
+02-25 23:40:08.784 D/VideoJobSwitcher( 2323): link(null, Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchAlbumInfoJob@2cb5c248])
+02-25 23:40:08.785 D/VideoJobSwitcher( 2323): link(com.qiyi.video.player.data.loader.OutsideLoader$3@2cb59a90, Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchEpisodeJob@2cb59fe0])
+02-25 23:40:08.786 D/VideoJobSwitcher( 2323): link(null, Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.VideoJob@2cb54000])
+02-25 23:40:08.787 D/Job     ( 2323): running() Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.VideoJobSwitcher@2cd60be8]
+02-25 23:40:08.788 D/Job     ( 2323): isCancelled() Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.VideoJobSwitcher@2cd60be8] return false
+02-25 23:40:08.788 D/VideoChecker( 2323): isValidVrsTvId(349989700) return true
+02-25 23:40:08.788 D/OutsideLoader( 2323): mAlbumHistoryCondition.checkPass() return false
+02-25 23:40:08.788 D/VideoChecker( 2323): isValidVrsTvId(349989700) return true
+02-25 23:40:08.788 D/OutsideLoader( 2323): mTvHistoryCondition.checkPass() return true
+02-25 23:40:08.790 D/VideoJobSwitcher( 2323): onRun() find job Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchHistoryJob@2cc97058]
+02-25 23:40:08.791 D/Job     ( 2323): running() Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchHistoryJob@2cc97058]
+02-25 23:40:08.792 D/Job     ( 2323): isCancelled() Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchHistoryJob@2cc97058] return false
+02-25 23:40:08.794 D/Job     ( 2323): running() done. not mean real done!!! Job(mState=1, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchHistoryJob@2cc97058]
+02-25 23:40:08.795 D/HistoryCacheManager( 2323): getTvHistory(349989700) return null
+02-25 23:40:08.795 D/Job     ( 2323): running() done. not mean real done!!! Job(mState=1, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.VideoJobSwitcher@2cd60be8]
+02-25 23:40:08.795 D/VideoProvider( 2323): prepareNextLoader() begin. mNextLoader=null
+02-25 23:40:08.796 D/Playlist( 2323): getNext() mNext=VideoHolder@2f12c3a0{episodeReady=false, historyReady=false, mListReady=false, mSourceStub=false, position=Position(albumIndex=-1, episodeIndex=-1), video=null}
+02-25 23:40:08.796 D/VideoProvider( 2323): prepareNextLoader() end. mNextLoader=null
+02-25 23:40:08.796 D/VideoProvider( 2323): preloadNextLoader() mNextLoader=null
+02-25 23:40:08.797 D/LoadingInfoCreator( 2323): createFrom(Bundle[{album_name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, vrsVid=null, from=out, fromWhere=out, albumInfo=qpId=202509101 name=中国梦想秀之折纸狂人盼圆妻子羊驼之梦 type=VIDEO focus= pic=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1_354_490.jpg tvPic= score= pCount= desc= key= isSeries=true chnName= chnId=6 tag= exclusive=0 isDownload=false is3D=0 tvsets=0 order=1 time= tvCount=0 stream= isPurchase=0 tvQid=349989700 vid=null len= sourceCode=202509101 vType=0 playUrl=null, play_list_info=PlayParams@2cbf8220{sourceType=OUTSIDE, playindex=0, playlist id=null, playlist name=null, is recommend=false, channel id=null, channel name=null, is picture vertical=false, from=out, playlist=[EMPTY]}, vrsTvId=349989700, history=-1, videoType=2, vrsAlbumId=202509101}])
+02-25 23:40:08.797 D/Job     ( 2323): notifyJobFail(JobError(mCode=[CacheError!], mMessage=[null], mException=[null])) Job(mState=1, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchHistoryJob@2cc97058]
+02-25 23:40:08.797 D/Job     ( 2323): java.lang.Throwable
+02-25 23:40:08.797 D/Job     ( 2323): 	at com.qiyi.video.player.utils.job.Job.notifyJobFail(Job.java:101)
+02-25 23:40:08.797 D/Job     ( 2323): 	at com.qiyi.video.player.data.job.FetchHistoryJob$FetchRunnable.run(FetchHistoryJob.java:33)
+02-25 23:40:08.797 D/Job     ( 2323): 	at java.lang.Thread.run(Thread.java:841)
+02-25 23:40:08.797 D/LoadingInfoCreator( 2323): createFrom() Album@2f08c2a0{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, sourceCode=202509101, isPurchase()=false, isExclusive()=false, isSeries()=true, playOrder=1, tvPic=, issueTime=, playCount=, playLength=, tvCount=0, tag=, cornerMark=CORNERMARK_NO, is3D()=false, definition list=, chnId=6, chnName=, startTime=0, endTime=0, playTime=-1, canDownload=false, bkt=, area=}
+02-25 23:40:08.797 D/LoadingInfo( 2323): LoadingInfo(中国梦想秀之折纸狂人盼圆妻子羊驼之梦, 0)
+02-25 23:40:08.797 D/LoadingInfo( 2323): setIsExclusive(false)
+02-25 23:40:08.797 D/LoadingInfo( 2323): setIsVip(false)
+02-25 23:40:08.797 D/LoadingInfo( 2323): setIs3d(false)
+02-25 23:40:08.798 D/PlayerOverlay( 2323): showLoading(LoadingInfo{title=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, isExclusive=false, isVip=false, is3d=false})
+02-25 23:40:08.798 D/Player/PlayerView/LoadingView( 2323): initViews: playType=OUTSIDE, loadingInfo=LoadingInfo{title=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, isExclusive=false, isVip=false, is3d=false}
+02-25 23:40:08.798 D/Job     ( 2323): notifyDone() mListener=null, Job(mState=3, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=JobError(mCode=[CacheError!], mMessage=[null], mException=[null]))[com.qiyi.video.player.data.job.FetchHistoryJob@2cc97058]
+02-25 23:40:08.799 D/Job     ( 2323): runNextJobs() Job(mState=3, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=JobError(mCode=[CacheError!], mMessage=[null], mException=[null]))[com.qiyi.video.player.data.job.FetchHistoryJob@2cc97058]
+02-25 23:40:08.801 D/Job     ( 2323): running() Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchAlbumInfoJob@2cb5c248]
+02-25 23:40:08.802 D/Player/PlayerView/LoadingView( 2323): initViews: isCustomizedLoadingImage=true
+02-25 23:40:08.802 D/Player/PlayerView/LoadingView( 2323): show
+02-25 23:40:08.802 D/Job     ( 2323): isCancelled() Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchAlbumInfoJob@2cb5c248] return false
+02-25 23:40:08.803 D/Player/PlayerView/LoadingView( 2323): addText: 中国梦想秀之折纸狂人盼圆妻子羊驼之梦
+02-25 23:40:08.803 D/PlayerOverlay( 2323):  showLoadingView: shown
+02-25 23:40:08.803 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): setInitialScreenMode: com.qiyi.video.player.QiyiVideoPlayer$ScreenMode$1@2c9c0f00
+02-25 23:40:08.803 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): onActivityEvent:ACTIVITY_CREATED
+02-25 23:40:08.803 D/PlayerController[2ca9db70]( 2323): onActivityEvent(ACTIVITY_CREATED)
+02-25 23:40:08.803 D/FetchAlbumInfoJob( 2323): onRun() video=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}
+02-25 23:40:08.803 D/PlayerOverlay( 2323): onActivityEvent: ACTIVITY_CREATED
+02-25 23:40:08.803 D/Player/Pingback/PingbackSender( 2323): >> onActivityEvent(event:ACTIVITY_CREATED): now=22418978
+02-25 23:40:08.803 D/Player/Pingback/PingbackSender( 2323): onActivityEvent: initBeginTime=22418978
+02-25 23:40:08.803 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): onActivityEvent:ACTIVITY_RESUMED
+02-25 23:40:08.803 D/PlayerController[2ca9db70]( 2323): onActivityEvent(ACTIVITY_RESUMED)
+02-25 23:40:08.804 D/DownloadViewManager( 2323): register storage listener
+02-25 23:40:08.804 D/LocalStorageManager( 2323): startListening() mListening=false
+02-25 23:40:08.805 I/System.out( 2323): DEBUG(ApiFilter): filter-devCheck- onCalling
+02-25 23:40:08.805 D/LocalStorageManager( 2323): registerListener(com.qiyi.video.player.app.DownloadViewManager$7@2dd30b70) return true
+02-25 23:40:08.805 D/PlayerOverlay( 2323): onActivityEvent: ACTIVITY_RESUMED
+02-25 23:40:08.805 D/Player/Pingback/PingbackSender( 2323): >> onActivityEvent(event:ACTIVITY_RESUMED): now=22418980
+02-25 23:40:08.805 D/Player/Pingback/PingbackSender( 2323): onActivityEvent: initEndTime=22418980
+02-25 23:40:08.805 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): onActivityEvent:ACTIVITY_CREATED
+02-25 23:40:08.806 D/PlayerController[2ca9db70]( 2323): onActivityEvent(ACTIVITY_CREATED)
+02-25 23:40:08.806 D/PlayerOverlay( 2323): onActivityEvent: ACTIVITY_CREATED
+02-25 23:40:08.806 D/Player/Pingback/PingbackSender( 2323): >> onActivityEvent(event:ACTIVITY_CREATED): now=22418981
+02-25 23:40:08.806 D/Player/Pingback/PingbackSender( 2323): onActivityEvent: initBeginTime=22418981
+02-25 23:40:08.806 I/System.out( 2323): D/(TVApi:4/4, id=155,专辑详情): url = http://data2.itv.ptqy.gitv.tv/itv/albumInfo/331/349989700
+02-25 23:40:08.806 I/System.out( 2323): D/(TVApi:4/4, id=155): header = qyid:tv_dfd776068febb13e38d211c7dfd0e36b_1388563211103
+02-25 23:40:08.807 I/System.out( 2323): D/(TVApi:4/4, id=155): header = apiKey:798da087c9036db8084f2dff8e2c95c2
+02-25 23:40:08.808 V/QBaseActivity( 2323): onResume com.qiyi.video.player.PlayerActivity@2dafadc8
+02-25 23:40:08.808 I/QBaseActivity( 2323): onResume mHomePressed = true, mStackCount = 1
+02-25 23:40:08.808 D/PlayerActivity( 2323): PlayerActivity--->>startCheckUpdate()--
+02-25 23:40:08.809 D/VoiceManager( 2323): onActivityResume(com.qiyi.video.player.PlayerActivity@2dafadc8)
+02-25 23:40:08.809 D/BasePlayActivity( 2323): onResume() mTargetSeekPos=-1
+02-25 23:40:08.809 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): onActivityEvent:ACTIVITY_RESUMED
+02-25 23:40:08.809 D/PlayerController[2ca9db70]( 2323): onActivityEvent(ACTIVITY_RESUMED)
+02-25 23:40:08.809 D/DownloadViewManager( 2323): register storage listener
+02-25 23:40:08.809 D/LocalStorageManager( 2323): registerListener(com.qiyi.video.player.app.DownloadViewManager$7@2dd30b70) return false
+02-25 23:40:08.809 D/PlayerOverlay( 2323): onActivityEvent: ACTIVITY_RESUMED
+02-25 23:40:08.809 D/Player/Pingback/PingbackSender( 2323): >> onActivityEvent(event:ACTIVITY_RESUMED): now=22418984
+02-25 23:40:08.809 D/Player/Pingback/PingbackSender( 2323): onActivityEvent: initEndTime=22418984
+02-25 23:40:08.811 D/Job     ( 2323): running() done. not mean real done!!! Job(mState=1, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchAlbumInfoJob@2cb5c248]
+02-25 23:40:08.811 I/MediaFocusControl( 1948):  AudioFocus  requestAudioFocus() from android.media.AudioManager@2ca81078com.qiyi.video.player.BasePlayActivity$2@2cf50288
+02-25 23:40:08.812 V/Avrcp   ( 2030): New genId = 10, clearing = 1
+02-25 23:40:08.818 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): network.onStateChanged: 2 -> 2
+02-25 23:40:08.818 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): onNetWorkConnected()
+02-25 23:40:08.818 D/PlayerController[2ca9db70]( 2323): onActivityEvent(NETWORK_STATE_CHANGED)
+02-25 23:40:08.818 D/VideoProvider( 2323): setNetworkAvaliable(true) mNetworkAvaliable=true
+02-25 23:40:08.818 D/PlayerOverlay( 2323): onActivityEvent: NETWORK_STATE_CHANGED
+02-25 23:40:08.818 D/PlayerOverlay( 2323): onActivityEvent: network connected=true
+02-25 23:40:08.818 D/Player/Pingback/PingbackSender( 2323): >> onActivityEvent(event:NETWORK_STATE_CHANGED): now=22418993
+02-25 23:40:08.830 D/MediaControllerContainer( 2323): onAttachedToWindow()
+02-25 23:40:08.830 D/MediaControllerContainer( 2323): checkChildrenLayout() ready!
+02-25 23:40:08.833 V/VPP_DLNA_LOG( 2814): [VPPDLNA][WorkerThread][:727]-:Before delete threadIdQ size =5 
+02-25 23:40:08.833 V/VPP_DLNA_LOG( 2814): [VPPDLNA][WorkerThread][:730]-:Exiting & deleting threadId=1284485288& threadIdQ size =4 
+02-25 23:40:08.834 V/VPP_DLNA_LOG( 2814): [VPPDLNA][WorkerThread][:727]-:Before delete threadIdQ size =4 
+02-25 23:40:08.834 V/VPP_DLNA_LOG( 2814): [VPPDLNA][WorkerThread][:730]-:Exiting & deleting threadId=1284481864& threadIdQ size =3 
+02-25 23:40:08.835 D/MovieVideoView( 2323): onMeasure(1073743744, 1073742904) mDesiredWidth=0, mDesiredHeight=0, width=1920, height=1080
+02-25 23:40:08.835 D/MovieVideoView( 2323): onMeasure() width=1920, height=1080
+02-25 23:40:08.838 D/MovieVideoView( 2323): onMeasure(1073743744, 1073742904) mDesiredWidth=0, mDesiredHeight=0, width=1920, height=1080
+02-25 23:40:08.838 D/MovieVideoView( 2323): onMeasure() width=1920, height=1080
+02-25 23:40:08.870 D/MovieVideoView( 2323): surfaceCreated(android.view.SurfaceView$4@2ef8b120)
+02-25 23:40:08.870 D/MovieVideoView( 2323): surfaceChanged(android.view.SurfaceView$4@2ef8b120, 4, 1920, 1080)
+02-25 23:40:08.870 D/MoviePlayer[2cc78368]( 2323): surfaceChanged(1920, 1080) mSurfaceWidth=0, mSurfaceHeight=0
+02-25 23:40:08.883 V/VPP_DLNA_LOG( 2814): [VPPDLNA][WorkerThread][:727]-:Before delete threadIdQ size =3 
+02-25 23:40:08.883 V/VPP_DLNA_LOG( 2814): [VPPDLNA][WorkerThread][:730]-:Exiting & deleting threadId=1288090464& threadIdQ size =2 
+02-25 23:40:08.895 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): onActivityEvent:WINDOW_FOCUSED
+02-25 23:40:08.895 D/PlayerController[2ca9db70]( 2323): onActivityEvent(WINDOW_FOCUSED)
+02-25 23:40:08.895 D/PlayerOverlay( 2323): onActivityEvent: WINDOW_FOCUSED
+02-25 23:40:08.895 E/PlayerOverlay( 2323): onActivityEvent: loading animation started
+02-25 23:40:08.896 D/Player/Pingback/PingbackSender( 2323): >> onActivityEvent(event:WINDOW_FOCUSED): now=22419070
+02-25 23:40:08.901 D/MovieVideoView( 2323): onMeasure(1073743744, 1073742904) mDesiredWidth=0, mDesiredHeight=0, width=1920, height=1080
+02-25 23:40:08.901 D/MovieVideoView( 2323): onMeasure() width=1920, height=1080
+02-25 23:40:08.902 D/MovieVideoView( 2323): onMeasure(1073743744, 1073742904) mDesiredWidth=0, mDesiredHeight=0, width=1920, height=1080
+02-25 23:40:08.902 D/MovieVideoView( 2323): onMeasure() width=1920, height=1080
+02-25 23:40:08.910 I/ActivityManager( 1948): Displayed com.qiyi.tvplayer.huawei/com.qiyi.video.player.PlayerActivity: +616ms
+02-25 23:40:08.917 W/IInputConnectionWrapper( 2323): showStatusIcon on inactive InputConnection
+02-25 23:40:10.037 D/AndroidRuntime(13759): 
+02-25 23:40:10.037 D/AndroidRuntime(13759): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 23:40:10.040 D/AndroidRuntime(13759): CheckJNI is OFF
+02-25 23:40:10.052 I/dalvikvm(13759): DexOpt: mismatch dep signature for '/system/framework/android.policy.odex'
+02-25 23:40:10.052 E/dalvikvm(13759): /system/framework/services.jar odex has stale dependencies
+02-25 23:40:10.053 I/dalvikvm(13759): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:10.053 E/dalvikvm(13759): /system/framework/apache-xml.jar odex has stale dependencies
+02-25 23:40:10.054 I/dalvikvm(13759): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:10.054 E/dalvikvm(13759): /system/framework/webviewchromium.jar odex has stale dependencies
+02-25 23:40:10.062 D/dalvikvm(13759): Trying to load lib libjavacore.so 0x0
+02-25 23:40:10.066 D/dalvikvm(13759): Added shared lib libjavacore.so 0x0
+02-25 23:40:10.072 D/dalvikvm(13759): Trying to load lib libnativehelper.so 0x0
+02-25 23:40:10.072 D/dalvikvm(13759): Added shared lib libnativehelper.so 0x0
+02-25 23:40:10.072 D/dalvikvm(13759): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 23:40:10.090 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:10.091 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:10.092 I/dalvikvm(13759): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:10.092 E/dalvikvm(13759): /system/framework/input.jar odex has stale dependencies
+02-25 23:40:10.093 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:10.097 E/cutils-trace(13759): Error opening trace file: No such file or directory (2)
+02-25 23:40:10.121 D/dalvikvm(13759): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-25 23:40:10.147 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:10.149 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:10.151 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:10.358 E/memtrack(13759): Couldn't load memtrack module (No such file or directory)
+02-25 23:40:10.358 E/android.os.Debug(13759): failed to load memtrack module: -2
+02-25 23:40:10.363 I/EthernetJNI(13759): Loading ethernet jni class
+02-25 23:40:10.463 D/AndroidRuntime(13759): Calling main entry com.android.commands.input.Input
+02-25 23:40:10.464 I/Input   (13759): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22420639, downTime=22420639, deviceId=-1, source=0x101 }
+02-25 23:40:10.470 D/WindowManager( 1948): keyCode =3
+02-25 23:40:10.470 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:10.470 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:10.470 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:10.470 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:10.471 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:10.472 D/WindowManager( 1948): send broadcast key press down
+02-25 23:40:10.472 W/ContextImpl( 1948): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1168 com.android.internal.policy.impl.PhoneWindowManager.interceptKeyBeforeQueueing:4109 com.android.server.wm.InputMonitor.interceptKeyBeforeQueueing:357 com.android.server.input.InputManagerService.interceptKeyBeforeQueueing:1352 com.android.server.input.InputManagerService.nativeInjectInputEvent:-2 
+02-25 23:40:10.475 I/Input   (13759): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22420639, downTime=22420639, deviceId=-1, source=0x101 }
+02-25 23:40:10.477 D/WindowManager( 1948): keyCode =3
+02-25 23:40:10.477 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:10.477 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:10.477 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:10.477 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:10.477 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:10.487 D/WindowManager( 1948): swHomeIntent =null customizer=0
+02-25 23:40:10.487 D/WindowManager( 1948): ......start launcher......
+02-25 23:40:10.489 I/ActivityManager( 1948): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.huawei.mh2.launcher/.MainActivity} from pid 1948
+02-25 23:40:10.495 I/QBaseActivity( 2323): HomeMonitor home key pressed
+02-25 23:40:10.495 I/QBaseActivity( 2323): setHomePressed mHomePressed = true, mStackCount = 2
+02-25 23:40:10.550 D/dalvikvm( 1948): GC_FOR_ALLOC freed 455K, 17% free 7619K/9080K, paused 49ms, total 49ms
+02-25 23:40:10.617 D/dalvikvm( 1948): GC_FOR_ALLOC freed 405K, 17% free 7588K/9080K, paused 47ms, total 47ms
+02-25 23:40:10.622 D/AndroidRuntime(13759): Shutting down VM
+02-25 23:40:10.630 D/VoiceManager( 2323): onActivityPause(com.qiyi.video.player.PlayerActivity@2dafadc8) mCurDialog=null
+02-25 23:40:10.630 D/BasePlayActivity( 2323): onPause()
+02-25 23:40:10.630 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): onActivityEvent:ACTIVITY_PAUSED
+02-25 23:40:10.630 D/dalvikvm(13759): GC_CONCURRENT freed 98K, 16% free 566K/668K, paused 1ms+1ms, total 5ms
+02-25 23:40:10.630 D/PlayerController[2ca9db70]( 2323): pause dump[749329264](mFirstStart=false, mTarget=1, mTargetPosition=-1, mFullscreenHintShown=false, mContinuePlaybackByUser=true, mPlayedAd=false, mPlayer=MoviePlayer@2cc78368, player type=-1)
+02-25 23:40:10.631 D/MoviePlayer[2cc78368]( 2323): pause() MoviePlayer[2cc78368](mCurrentState=1, mTargetState=1, mNextVideoFilled=true, mSeekWhenInited=-1, mCurDefinition=-1, mSwitchingBitStream=false, mSwitchPlayerForDifBitStream=false, mSurfaceHolder=android.view.SurfaceView$4@2ef8b120, mPlayer=null, mVideo=VideoHolder@2cb5a358{video=null, from=-1, to=-1}, mNextVideo=VideoHolder@2cb5a208{video=null, from=-1, to=-1})
+02-25 23:40:10.631 D/PlayerController[2ca9db70]( 2323): onActivityEvent(ACTIVITY_PAUSED)
+02-25 23:40:10.631 D/PlayerOverlay( 2323): onActivityEvent: ACTIVITY_PAUSED
+02-25 23:40:10.631 D/Player/Pingback/PingbackSender( 2323): >> onActivityEvent(event:ACTIVITY_PAUSED): now=22420806
+02-25 23:40:10.631 D/Player/Pingback/PingbackSender( 2323): onActivityEvent: isFinishing=false
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): getRecord =onActivityEvent ACTIVITY_CREATED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_RESUMED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_CREATED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_RESUMED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent NETWORK_STATE_CHANGED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent WINDOW_FOCUSED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_PAUSED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent WINDOW_FOCUSED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_STOP 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_DESTROYED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_CREATED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_RESUMED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_CREATED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_RESUMED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent NETWORK_STATE_CHANGED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent WINDOW_FOCUSED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_PAUSED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent WINDOW_FOCUSED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_STOP 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_DESTROYED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_CREATED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_RESUMED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_CREATED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_RESUMED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent NETWORK_STATE_CHANGED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent WINDOW_FOCUSED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_PAUSED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent WINDOW_FOCUSED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_STOP 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent NETWORK_STATE_CHANGED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent NETWORK_STATE_CHANGED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent NETWORK_STATE_CHANGED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent NETWORK_STATE_CHANGED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_DESTROYED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_CREATED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_RESUMED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_CREATED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_RESUMED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent NETWORK_STATE_CHANGED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent WINDOW_FOCUSED 
+02-25 23:40:10.631 D/PlayerStatusRecorder( 2323): onActivityEvent ACTIVITY_PAUSED 
+02-25 23:40:10.631 D/PlayerController[2ca9db70]( 2323): getPosition() return 0 dump[749329264](mFirstStart=false, mTarget=2, mTargetPosition=-1, mFullscreenHintShown=false, mContinuePlaybackByUser=true, mPlayedAd=false, mPlayer=MoviePlayer@2cc78368, player type=-1)
+02-25 23:40:10.632 I/MediaFocusControl( 1948):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@2ca81078com.qiyi.video.player.BasePlayActivity$2@2cf50288
+02-25 23:40:10.633 V/Avrcp   ( 2030): New genId = 11, clearing = 1
+02-25 23:40:10.680 D/dalvikvm( 2017): GC_FOR_ALLOC freed 31957K, 54% free 27803K/59820K, paused 55ms, total 56ms
+02-25 23:40:10.682 D/PosterPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.o][onFocusChange][-1]:launcher:hasFocus=false [m
+02-25 23:40:10.684 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.l][onGlobalFocusChanged][-1]:launcher:newFocus=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .FS..... 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:10.689 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][onFocusChange][-1]:launcher:v=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .FS...ID 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:10.690 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:setDefaultFocus com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .F....ID 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:10.693 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .F....ID 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:10.695 I/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][d][-1]:launcher:resume [m
+02-25 23:40:10.698 W/ContextImpl( 2257): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1168 android.content.ContextWrapper.sendBroadcast:365 android.app.ActivityThread.performResumeActivity:2785 android.app.ActivityThread.handleResumeActivity:2823 android.app.ActivityThread$H.handleMessage:1238 
+02-25 23:40:10.699 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:setDefaultFocus com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .F....ID 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:10.706 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .F....ID 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:10.711 D/SettingsPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.SettingsPage][a][-1]:launcher:isLogin=false [m
+02-25 23:40:10.719 W/InputMethodManagerService( 1948): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@2cae9e10 (uid=10037 pid=2323)
+02-25 23:40:10.723 D/ImageLoader( 2257): Start display image task [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:10.726 D/p       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.p][getView][-1]:launcher:position=12 convertView=null [m
+02-25 23:40:10.727 D/ImageLoader( 2257): Load image from disc cache [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:10.796 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=-225 offsetHeight=-428 resizeImmediate=true [m
+02-25 23:40:10.797 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=-479 offsetTop=-176 moveImmediate=true [m
+02-25 23:40:10.798 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=true isChanged=true [m
+02-25 23:40:10.813 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): onActivityEvent:WINDOW_FOCUSED
+02-25 23:40:10.813 D/PlayerController[2ca9db70]( 2323): onActivityEvent(WINDOW_FOCUSED)
+02-25 23:40:10.813 D/PlayerOverlay( 2323): onActivityEvent: WINDOW_FOCUSED
+02-25 23:40:10.813 D/Player/Pingback/PingbackSender( 2323): >> onActivityEvent(event:WINDOW_FOCUSED): now=22420988
+02-25 23:40:10.831 D/ImageLoader( 2257): PreProcess image before caching in memory [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:10.832 D/ImageLoader( 2257): Cache image in memory [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:10.837 D/MovieVideoView( 2323): surfaceDestroyed(android.view.SurfaceView$4@2ef8b120)
+02-25 23:40:10.850 D/dalvikvm( 2257): GC_CONCURRENT freed 9537K, 39% free 52667K/85332K, paused 4ms+16ms, total 115ms
+02-25 23:40:10.850 D/dalvikvm( 2257): WAIT_FOR_CONCURRENT_GC blocked 52ms
+02-25 23:40:10.850 D/dalvikvm( 2257): WAIT_FOR_CONCURRENT_GC blocked 45ms
+02-25 23:40:10.852 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:10.857 D/BasePlayActivity( 2323): onStop()
+02-25 23:40:10.857 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): onActivityEvent:ACTIVITY_STOP
+02-25 23:40:10.857 D/ImageLoader( 2257): Display image in ImageAware (loaded from DISC_CACHE) [http://pic3.ptqy.gitv.tv/image/20150215/41/2c/a_100010524_m_601_260_360.jpg_333x461]
+02-25 23:40:10.857 D/PlayerController[2ca9db70]( 2323): stop(true) dump[749329264](mFirstStart=false, mTarget=2, mTargetPosition=-1, mFullscreenHintShown=false, mContinuePlaybackByUser=true, mPlayedAd=false, mPlayer=MoviePlayer@2cc78368, player type=-1)
+02-25 23:40:10.857 D/VideoProvider( 2323): stopLoad()
+02-25 23:40:10.857 D/VideoLoader( 2323): cancelLoad() mFullLoading=true, mPreLoading=true
+02-25 23:40:10.857 D/VideoProvider( 2323): releaseNextLoader() mNextLoader=null
+02-25 23:40:10.857 D/Playlist( 2323): clearForReload()
+02-25 23:40:10.858 D/MoviePlayer[2cc78368]( 2323): stop() MoviePlayer[2cc78368](mCurrentState=1, mTargetState=7, mNextVideoFilled=true, mSeekWhenInited=-1, mCurDefinition=-1, mSwitchingBitStream=false, mSwitchPlayerForDifBitStream=false, mSurfaceHolder=null, mPlayer=null, mVideo=VideoHolder@2cb5a358{video=null, from=-1, to=-1}, mNextVideo=VideoHolder@2cb5a208{video=null, from=-1, to=-1})
+02-25 23:40:10.858 D/MoviePlayer[2cc78368]( 2323): release() MoviePlayer[2cc78368](mCurrentState=1, mTargetState=1, mNextVideoFilled=false, mSeekWhenInited=-1, mCurDefinition=-1, mSwitchingBitStream=false, mSwitchPlayerForDifBitStream=false, mSurfaceHolder=null, mPlayer=null, mVideo=VideoHolder@2cb5a358{video=null, from=-1, to=-1}, mNextVideo=VideoHolder@2cb5a208{video=null, from=-1, to=-1})
+02-25 23:40:10.858 D/PlayerOverlay( 2323): hide()
+02-25 23:40:10.858 I/AbsMenuPanel( 2323): hide
+02-25 23:40:10.858 D/AbsMenuPanel( 2323): notifyVisibilityChange(false)
+02-25 23:40:10.858 D/AbsPlayerOverlay( 2323): notifyMenuPanelVisibilityChange(false)
+02-25 23:40:10.858 D/DispatcherCenter( 2323): onVisibilityChange(isVisible:false)
+02-25 23:40:10.858 D/VideoProvider( 2323): getCurrent()
+02-25 23:40:10.860 D/Playlist( 2323): getCurrent() return VideoHolder@2f12c328{episodeReady=false, historyReady=false, mListReady=false, mSourceStub=false, position=Position(albumIndex=-1, episodeIndex=-1), video=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}}
+02-25 23:40:10.861 D/PlayerController[2ca9db70]( 2323): MenuPanel.onVisibilityChange(false): video=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, sourceType=OUTSIDE, isPlaylistReady=false
+02-25 23:40:10.861 D/MediaControllerContainer( 2323): hideHeader()
+02-25 23:40:10.861 D/MediaControllerOverlay( 2323): hideHeader() mShowHeader=false
+02-25 23:40:10.861 D/MediaControllerOverlay( 2323): doHide() com.qiyi.video.project.configs.huawei.layout.HuaweiMediaControllerOverlay{2cbec238 G.E..... ......I. 0,0-0,0}[mState=0, mShowHeader=false, mBuffering=false, mTipShown=false, mSeeking=false, mIsFullScreen=true]
+02-25 23:40:10.861 D/MediaControllerOverlay( 2323): clearHideViewMessageQueue()
+02-25 23:40:10.861 D/TimedSeekBar( 2323): stopTipMode() mIsTipMode=false
+02-25 23:40:10.861 D/TimedSeekBar( 2323): hide()
+02-25 23:40:10.861 D/MediaControllerOverlay( 2323): hideView() Views[Adtime,VideoName,Systime,Pause,Seekbar,]
+02-25 23:40:10.861 D/MediaControllerOverlay( 2323): tip view id:2131100038
+02-25 23:40:10.862 D/CountDownView( 2323): hide()
+02-25 23:40:10.862 D/MediaControllerContainer( 2323): hide()
+02-25 23:40:10.862 D/MediaControllerOverlay( 2323): hide() com.qiyi.video.project.configs.huawei.layout.HuaweiMediaControllerOverlay{2cbec238 G.E..... ......I. 0,0-0,0}[mState=0, mShowHeader=false, mBuffering=false, mTipShown=false, mSeeking=false, mIsFullScreen=true]
+02-25 23:40:10.862 D/MediaControllerOverlay( 2323): doHide() com.qiyi.video.project.configs.huawei.layout.HuaweiMediaControllerOverlay{2cbec238 G.E..... ......I. 0,0-0,0}[mState=0, mShowHeader=false, mBuffering=false, mTipShown=false, mSeeking=false, mIsFullScreen=true]
+02-25 23:40:10.862 D/MediaControllerOverlay( 2323): clearHideViewMessageQueue()
+02-25 23:40:10.862 D/TimedSeekBar( 2323): stopTipMode() mIsTipMode=false
+02-25 23:40:10.862 D/TimedSeekBar( 2323): hide()
+02-25 23:40:10.862 D/MediaControllerOverlay( 2323): hideView() Views[Adtime,VideoName,Systime,Pause,Seekbar,]
+02-25 23:40:10.862 D/MediaControllerOverlay( 2323): tip view id:2131100038
+02-25 23:40:10.862 D/CountDownView( 2323): hide()
+02-25 23:40:10.862 D/PlayerController[2ca9db70]( 2323): onActivityEvent(ACTIVITY_STOP)
+02-25 23:40:10.862 D/PlayerOverlay( 2323): onActivityEvent: ACTIVITY_STOP
+02-25 23:40:10.863 D/Player/Pingback/PingbackSender( 2323): >> onActivityEvent(event:ACTIVITY_STOP): now=22421038
+02-25 23:40:10.863 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=true [m
+02-25 23:40:10.863 D/DispatcherCenter( 2323): unregisterPlayer(MoviePlayer@2cc78368, player type=-1) mPlayer=MoviePlayer@2cc78368, player type=-1
+02-25 23:40:10.863 D/AbsHybridPlayer[2cc78368]( 2323): setOnBitStreamChangedListener(null)
+02-25 23:40:10.863 D/AbsHybridPlayer[2cc78368]( 2323): setOnBufferChangedListener(null)
+02-25 23:40:10.863 D/AbsHybridPlayer[2cc78368]( 2323): setOnInfoListener(null)
+02-25 23:40:10.863 D/AbsHybridPlayer[2cc78368]( 2323): setOnPlayNextListener(null)
+02-25 23:40:10.864 D/AbsHybridPlayer[2cc78368]( 2323): setOnSeekChangedListener(null)
+02-25 23:40:10.864 D/AbsHybridPlayer[2cc78368]( 2323): setOnStateChangedListener(null)
+02-25 23:40:10.864 D/AbsHybridPlayer[2cc78368]( 2323): setOnSubtitleUpdateListener(null)
+02-25 23:40:10.864 D/AbsHybridPlayer[2cc78368]( 2323): setOnVideoSizeChangedListener(null)
+02-25 23:40:10.864 D/AbsHybridPlayer[2cc78368]( 2323): setOnCacheUpdateListener(null)
+02-25 23:40:10.864 D/AbsHybridPlayer[2cc78368]( 2323): setOnPreprocessListener(null)
+02-25 23:40:10.865 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=true [m
+02-25 23:40:10.868 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=true isChanged=false [m
+02-25 23:40:10.869 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:10.978 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:10.980 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:10.981 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:11.035 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:11.039 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:11.041 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:12.151 I/HiRMService( 2269):  ***** changeStats = 2
+02-25 23:40:12.277 D/AndroidRuntime(13771): 
+02-25 23:40:12.277 D/AndroidRuntime(13771): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 23:40:12.280 D/AndroidRuntime(13771): CheckJNI is OFF
+02-25 23:40:12.288 I/dalvikvm(13771): DexOpt: mismatch dep signature for '/system/framework/android.policy.odex'
+02-25 23:40:12.288 E/dalvikvm(13771): /system/framework/services.jar odex has stale dependencies
+02-25 23:40:12.289 I/dalvikvm(13771): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:12.289 E/dalvikvm(13771): /system/framework/apache-xml.jar odex has stale dependencies
+02-25 23:40:12.289 I/dalvikvm(13771): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:12.290 E/dalvikvm(13771): /system/framework/webviewchromium.jar odex has stale dependencies
+02-25 23:40:12.297 D/dalvikvm(13771): Trying to load lib libjavacore.so 0x0
+02-25 23:40:12.300 D/dalvikvm(13771): Added shared lib libjavacore.so 0x0
+02-25 23:40:12.305 D/dalvikvm(13771): Trying to load lib libnativehelper.so 0x0
+02-25 23:40:12.305 D/dalvikvm(13771): Added shared lib libnativehelper.so 0x0
+02-25 23:40:12.305 D/dalvikvm(13771): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 23:40:12.323 I/dalvikvm(13771): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:12.323 E/dalvikvm(13771): /system/framework/input.jar odex has stale dependencies
+02-25 23:40:12.327 E/cutils-trace(13771): Error opening trace file: No such file or directory (2)
+02-25 23:40:12.348 D/dalvikvm(13771): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-25 23:40:12.540 E/memtrack(13771): Couldn't load memtrack module (No such file or directory)
+02-25 23:40:12.540 E/android.os.Debug(13771): failed to load memtrack module: -2
+02-25 23:40:12.542 I/EthernetJNI(13771): Loading ethernet jni class
+02-25 23:40:12.612 D/AndroidRuntime(13771): Calling main entry com.android.commands.input.Input
+02-25 23:40:12.613 I/Input   (13771): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22422788, downTime=22422788, deviceId=-1, source=0x101 }
+02-25 23:40:12.618 D/WindowManager( 1948): keyCode =22
+02-25 23:40:12.618 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:12.618 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:12.618 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:12.618 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:12.618 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:12.619 D/WindowManager( 1948): send broadcast key press down
+02-25 23:40:12.619 W/ContextImpl( 1948): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1168 com.android.internal.policy.impl.PhoneWindowManager.interceptKeyBeforeQueueing:4109 com.android.server.wm.InputMonitor.interceptKeyBeforeQueueing:357 com.android.server.input.InputManagerService.interceptKeyBeforeQueueing:1352 com.android.server.input.InputManagerService.nativeInjectInputEvent:-2 
+02-25 23:40:12.622 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+02-25 23:40:12.624 I/Input   (13771): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22422788, downTime=22422788, deviceId=-1, source=0x101 }
+02-25 23:40:12.624 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.l][onGlobalFocusChanged][-1]:launcher:newFocus=com.huawei.mh2.launcher.a.n{2c957d78 VFE...C. .F...... 160,0-285,57 #7f0a0007 app:id/menu_title_movie} [m
+02-25 23:40:12.625 D/WindowManager( 1948): keyCode =22
+02-25 23:40:12.625 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:12.625 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:12.625 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:12.625 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:12.625 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:12.625 D/AudioPolicyManagerBase( 1406): startOutput() output 2, stream 1, session 255
+02-25 23:40:12.626 D/AudioPolicyManagerBase( 1406): startoutput ->setOutputDevice
+02-25 23:40:12.626 D/AudioPolicyManagerBase( 1406): AudioPolicyManagerBase::checkAndSetVolume 13,0.377113
+02-25 23:40:12.627 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.e][onGlobalFocusChanged][-1]:launcher:smoothMove [m
+02-25 23:40:12.629 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c957d78 VFE...C. .F...... 160,0-285,57 #7f0a0007 app:id/menu_title_movie} [m
+02-25 23:40:12.630 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][onFocusChange][-1]:launcher:v=com.huawei.mh2.launcher.a.n{2c957d78 VFE...C. .F....ID 160,0-285,57 #7f0a0007 app:id/menu_title_movie} [m
+02-25 23:40:12.641 I/MyGallery( 2257): setMode 2
+02-25 23:40:12.641 D/AndroidRuntime(13771): Shutting down VM
+02-25 23:40:12.641 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][b][-1]:launcher:currentIndex=0 nextIndex=1 [m
+02-25 23:40:12.642 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=5 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:12.643 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=104 offsetTop=0 moveImmediate=false [m
+02-25 23:40:12.644 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:12.645 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:12.647 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+02-25 23:40:12.647 D/dalvikvm(13771): GC_CONCURRENT freed 98K, 16% free 566K/668K, paused 1ms+0ms, total 4ms
+02-25 23:40:12.667 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:12.667 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=36 offsetTop=0 moveImmediate=false [m
+02-25 23:40:12.668 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:12.669 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:12.683 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:12.684 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=13 offsetTop=0 moveImmediate=false [m
+02-25 23:40:12.684 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:12.685 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:12.704 I/MyGallery( 2257): setMode 5
+02-25 23:40:12.704 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:12.705 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=7 offsetTop=0 moveImmediate=false [m
+02-25 23:40:12.706 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:12.706 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:12.707 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][a][-1]:launcher:currentIndex=0 nextIndex=1 [m
+02-25 23:40:12.726 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:12.727 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:12.728 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:12.730 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:12.808 I/MyGallery( 2257): setMode 0
+02-25 23:40:13.128 E/VPP_DLNA_LOG( 2814): [VPPDLNA][Check_Connect_And_Wait_Connection][:156]:  select timeout
+02-25 23:40:13.128 E/VPP_DLNA_LOG( 2814): [VPPDLNA][BEATHEART][MyBox_d4f7ac(10.10.5.133)]-:get response for heartBeat timeout!!!
+02-25 23:40:13.554 E/NetWorkManager( 2323): NetWorkManager tryConnectFirst   time  = 5001
+02-25 23:40:13.720 E/NetWorkManager( 2323): NetWorkManager connect internet success !!  http://www.baidu.com
+02-25 23:40:13.869 I/System.out( 2323): D/(TVApi:4/4, id=155): Remote ip address: 123.125.117.39
+02-25 23:40:13.869 I/System.out( 2323): D/(TVApi:4/4, id=155): Get Request
+02-25 23:40:13.963 I/System.out( 2323): D/(TVApi:4/4, id=155,专辑详情,t=5156ms): response is {"data":{"qpId":202509101,"name":"中国梦想秀第9季","type":0,"focus":"中国梦想秀第9季","tvFocus":"折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生","pic":"http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1.jpg","tvPic":"","score":"10.0","isSeries":1,"tag":"国语,内地,真人秀","exclusive":0,"sourceCode":"202509101","is3D":0,"tvsets":0,"order":0,"time":"20150225","tvCount":1,"stream":"600,300,jisu,1080p,720p","isPurchase":0,"tvQId":349989700,"vid":"256c33c045d36a7126ce1db2c37c0167","len":1445,"tvName":"折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生","chnId":6,"chnName":"综艺","initIssueTime":"2015-02-25 22:10:46","cast":{"composer":"","host":"周立波","dubber":"","maker":"","songWriter":"","producer":"","star":"余枫,刘雨欣","guest":"余枫,刘雨欣","mainActor":"周立波","actor":"余枫,刘雨欣","director":"","writer":""},"vidl":[{"vd":"720P","vid":"256c33c045d36a7126ce1db2c37c0167"},{"vd":"jisu","vid":"4ed18e53b9ac4bac048fe75a16849942"},{"vd":"600","vid":"560816fee0812e9d2c414f0a0e95bf70"},{"vd":"300","vid":"949ee728ae9cb1c711abd02a35d1a27e"},{"vd":"1080P","vid":"f546b6a3c5c4fd9cde04cc35c235e919"}],"pCount":"41499","desc":"中国梦想秀20150225，折纸人人都会，近年来纸模也越发流行，但是仅用一张纸就能够折出一个大千世界的人却并不常见。第九季《中国梦想秀》第一期的追梦人刘通就让观众们见识到了他的一纸乾坤。大象、犀牛、战马、穿山甲……如果不是亲眼见到，很难想象这些动物能够仅用一张正方形的纸在不剪不裁的情况下就被折出来，并且还都栩栩如生。追梦人刘通是一位折纸爱好者，理科出身的他，将折纸与数学运算相结合，运用数学原理运算，将一张纸进行了合理的分配，从而折出各种千变万化的实物。刘通的折纸作品在世界各地博物馆都有收藏，2015年在米兰举行的世博会上，他还被邀请作为特邀设计师。\r\n。","key":"中国梦想秀第9季","isDownload":1,"effective":1,"contentType":1},"code":"N000000","msg":""}
+02-25 23:40:13.971 D/FetchAlbumInfoJob( 2323): onSuccess(com.qiyi.tvapi.tv2.result.ApiResultAlbum@2ee8e908)VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=null, getType()=VIDEO, albumName=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, tvName=, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀之折纸狂人盼圆妻子羊驼之梦, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=false, isDownload=0, tvPic=, issueTime=, playCount=, playLength=, tag=, cornerMark=CORNERMARK_NO, definition list=, default definition=null, channelId=6, channelName=, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=0, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}
+02-25 23:40:13.972 D/FetchAlbumInfoJob( 2323): onSuccess() fetch album=Album@2ee8e970{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, sourceCode=202509101, isPurchase()=false, isExclusive()=false, isSeries()=true, playOrder=0, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tvCount=1, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, is3D()=false, definition list=600,300,jisu,1080p,720p, chnId=6, chnName=综艺, startTime=0, endTime=0, playTime=-1, canDownload=true, bkt=, area=}
+02-25 23:40:13.972 D/VideoItem@2f077cf8( 2323): copyFrom: canUpdateTvName=true, nameUpdateable=true
+02-25 23:40:13.972 W/Player/Utils( 2323): parse() error!
+02-25 23:40:13.972 D/VideoItem@2f077cf8( 2323): isTvSeries(): isSeries=true, sourceCode()=202509101, return=false
+02-25 23:40:13.973 D/VideoItem@2f077cf8( 2323): updatePictureUrl: isVertical=false, mPictureUrl=http://pic8.ptqy.gitv.tv/image/20150225/54/4c/v_108966887_m_601_m1.jpg
+02-25 23:40:13.976 D/Job     ( 2323): notifyJobSuccess() Job(mState=1, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchAlbumInfoJob@2cb5c248]
+02-25 23:40:13.978 D/Job     ( 2323): notifyDone() mListener=com.qiyi.video.player.data.loader.VideoLoader$1@2cdb2e60, Job(mState=2, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchAlbumInfoJob@2cb5c248]
+02-25 23:40:13.981 D/VideoLoader( 2323): mBasicProxy.onJobDone(Job(mState=2, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchAlbumInfoJob@2cb5c248])
+02-25 23:40:13.983 D/VideoLoader( 2323): notifyBasicReady(VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null})
+02-25 23:40:13.986 D/VideoLoader( 2323): MyEventListener.handleMessage({ when=-1ms what=1 obj=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null} target=com.qiyi.video.player.data.loader.VideoLoader$MyEventListener })
+02-25 23:40:13.987 D/Job     ( 2323): runNextJobs() Job(mState=2, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.FetchAlbumInfoJob@2cb5c248]
+02-25 23:40:13.990 D/Job     ( 2323): running() Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.VideoJobSwitcher@2cb5ada0]
+02-25 23:40:13.993 D/Job     ( 2323): isCancelled() Job(mState=0, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.VideoJobSwitcher@2cb5ada0] return true
+02-25 23:40:13.996 D/Job     ( 2323): notifyDone() mListener=null, Job(mState=4, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.VideoJobSwitcher@2cb5ada0]
+02-25 23:40:13.998 D/Job     ( 2323): runNextJobs() Job(mState=4, mData=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, mError=null)[com.qiyi.video.player.data.job.VideoJobSwitcher@2cb5ada0]
+02-25 23:40:14.373 D/AndroidRuntime(13795): 
+02-25 23:40:14.373 D/AndroidRuntime(13795): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 23:40:14.375 D/AndroidRuntime(13795): CheckJNI is OFF
+02-25 23:40:14.384 I/dalvikvm(13795): DexOpt: mismatch dep signature for '/system/framework/android.policy.odex'
+02-25 23:40:14.384 E/dalvikvm(13795): /system/framework/services.jar odex has stale dependencies
+02-25 23:40:14.385 I/dalvikvm(13795): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:14.385 E/dalvikvm(13795): /system/framework/apache-xml.jar odex has stale dependencies
+02-25 23:40:14.385 I/dalvikvm(13795): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:14.385 E/dalvikvm(13795): /system/framework/webviewchromium.jar odex has stale dependencies
+02-25 23:40:14.392 D/dalvikvm(13795): Trying to load lib libjavacore.so 0x0
+02-25 23:40:14.396 D/dalvikvm(13795): Added shared lib libjavacore.so 0x0
+02-25 23:40:14.401 D/dalvikvm(13795): Trying to load lib libnativehelper.so 0x0
+02-25 23:40:14.401 D/dalvikvm(13795): Added shared lib libnativehelper.so 0x0
+02-25 23:40:14.401 D/dalvikvm(13795): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 23:40:14.419 I/dalvikvm(13795): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:14.419 E/dalvikvm(13795): /system/framework/input.jar odex has stale dependencies
+02-25 23:40:14.422 E/cutils-trace(13795): Error opening trace file: No such file or directory (2)
+02-25 23:40:14.442 D/dalvikvm(13795): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-25 23:40:14.653 E/memtrack(13795): Couldn't load memtrack module (No such file or directory)
+02-25 23:40:14.653 E/android.os.Debug(13795): failed to load memtrack module: -2
+02-25 23:40:14.655 I/EthernetJNI(13795): Loading ethernet jni class
+02-25 23:40:14.725 D/AndroidRuntime(13795): Calling main entry com.android.commands.input.Input
+02-25 23:40:14.726 I/Input   (13795): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22424901, downTime=22424901, deviceId=-1, source=0x101 }
+02-25 23:40:14.731 D/WindowManager( 1948): keyCode =22
+02-25 23:40:14.731 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:14.731 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:14.731 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:14.731 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:14.731 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:14.732 D/WindowManager( 1948): send broadcast key press down
+02-25 23:40:14.732 W/ContextImpl( 1948): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1168 com.android.internal.policy.impl.PhoneWindowManager.interceptKeyBeforeQueueing:4109 com.android.server.wm.InputMonitor.interceptKeyBeforeQueueing:357 com.android.server.input.InputManagerService.interceptKeyBeforeQueueing:1352 com.android.server.input.InputManagerService.nativeInjectInputEvent:-2 
+02-25 23:40:14.736 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+02-25 23:40:14.738 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.l][onGlobalFocusChanged][-1]:launcher:newFocus=com.huawei.mh2.launcher.a.n{2c9effc0 VFE...C. .F...... 320,0-380,57 #7f0a0008 app:id/menu_title_tv} [m
+02-25 23:40:14.738 I/Input   (13795): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22424901, downTime=22424901, deviceId=-1, source=0x101 }
+02-25 23:40:14.738 D/WindowManager( 1948): keyCode =22
+02-25 23:40:14.738 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:14.738 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:14.738 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:14.739 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:14.739 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:14.739 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.e][onGlobalFocusChanged][-1]:launcher:smoothMove [m
+02-25 23:40:14.739 D/AudioPolicyManagerBase( 1406): startOutput() output 2, stream 1, session 256
+02-25 23:40:14.739 D/AudioPolicyManagerBase( 1406): startoutput ->setOutputDevice
+02-25 23:40:14.740 D/AudioPolicyManagerBase( 1406): AudioPolicyManagerBase::checkAndSetVolume 13,0.377113
+02-25 23:40:14.741 D/AndroidRuntime(13795): Shutting down VM
+02-25 23:40:14.742 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c9effc0 VFE...C. .F...... 320,0-380,57 #7f0a0008 app:id/menu_title_tv} [m
+02-25 23:40:14.743 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][onFocusChange][-1]:launcher:v=com.huawei.mh2.launcher.a.n{2c9effc0 VFE...C. .F....ID 320,0-380,57 #7f0a0008 app:id/menu_title_tv} [m
+02-25 23:40:14.744 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+02-25 23:40:14.747 D/dalvikvm(13795): GC_CONCURRENT freed 98K, 16% free 566K/668K, paused 0ms+1ms, total 3ms
+02-25 23:40:14.755 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][b][-1]:launcher:currentIndex=1 nextIndex=2 [m
+02-25 23:40:14.756 I/MyGallery( 2257): setMode 2
+02-25 23:40:14.757 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=-43 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:14.758 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=104 offsetTop=0 moveImmediate=false [m
+02-25 23:40:14.759 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:14.759 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:14.770 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=-15 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:14.771 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=36 offsetTop=0 moveImmediate=false [m
+02-25 23:40:14.771 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:14.772 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:14.783 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=-7 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:14.784 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=13 offsetTop=0 moveImmediate=false [m
+02-25 23:40:14.784 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:14.785 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:14.800 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:14.801 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=7 offsetTop=0 moveImmediate=false [m
+02-25 23:40:14.801 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:14.802 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:14.822 I/MyGallery( 2257): setMode 5
+02-25 23:40:14.822 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:14.823 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:14.824 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:14.824 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:14.825 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][a][-1]:launcher:currentIndex=1 nextIndex=2 [m
+02-25 23:40:14.830 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c9effc0 VFE...C. .F...... 320,0-380,57 #7f0a0008 app:id/menu_title_tv} [m
+02-25 23:40:14.918 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:14.919 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:14.920 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:14.920 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:14.928 I/MyGallery( 2257): setMode 0
+02-25 23:40:16.395 D/AndroidRuntime(13807): 
+02-25 23:40:16.395 D/AndroidRuntime(13807): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 23:40:16.398 D/AndroidRuntime(13807): CheckJNI is OFF
+02-25 23:40:16.406 I/dalvikvm(13807): DexOpt: mismatch dep signature for '/system/framework/android.policy.odex'
+02-25 23:40:16.406 E/dalvikvm(13807): /system/framework/services.jar odex has stale dependencies
+02-25 23:40:16.407 I/dalvikvm(13807): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:16.407 E/dalvikvm(13807): /system/framework/apache-xml.jar odex has stale dependencies
+02-25 23:40:16.408 I/dalvikvm(13807): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:16.408 E/dalvikvm(13807): /system/framework/webviewchromium.jar odex has stale dependencies
+02-25 23:40:16.414 D/dalvikvm(13807): Trying to load lib libjavacore.so 0x0
+02-25 23:40:16.418 D/dalvikvm(13807): Added shared lib libjavacore.so 0x0
+02-25 23:40:16.423 D/dalvikvm(13807): Trying to load lib libnativehelper.so 0x0
+02-25 23:40:16.423 D/dalvikvm(13807): Added shared lib libnativehelper.so 0x0
+02-25 23:40:16.423 D/dalvikvm(13807): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 23:40:16.441 I/dalvikvm(13807): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:16.441 E/dalvikvm(13807): /system/framework/input.jar odex has stale dependencies
+02-25 23:40:16.444 E/cutils-trace(13807): Error opening trace file: No such file or directory (2)
+02-25 23:40:16.464 D/dalvikvm(13807): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-25 23:40:16.652 E/memtrack(13807): Couldn't load memtrack module (No such file or directory)
+02-25 23:40:16.652 E/android.os.Debug(13807): failed to load memtrack module: -2
+02-25 23:40:16.655 I/EthernetJNI(13807): Loading ethernet jni class
+02-25 23:40:16.723 D/AndroidRuntime(13807): Calling main entry com.android.commands.input.Input
+02-25 23:40:16.724 I/Input   (13807): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22426899, downTime=22426899, deviceId=-1, source=0x101 }
+02-25 23:40:16.729 D/WindowManager( 1948): keyCode =22
+02-25 23:40:16.729 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:16.729 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:16.729 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:16.729 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:16.729 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:16.730 W/ContextImpl( 1948): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1168 com.android.internal.policy.impl.PhoneWindowManager.interceptKeyBeforeQueueing:4109 com.android.server.wm.InputMonitor.interceptKeyBeforeQueueing:357 com.android.server.input.InputManagerService.interceptKeyBeforeQueueing:1352 com.android.server.input.InputManagerService.nativeInjectInputEvent:-2 
+02-25 23:40:16.731 D/WindowManager( 1948): send broadcast key press down
+02-25 23:40:16.734 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+02-25 23:40:16.735 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.l][onGlobalFocusChanged][-1]:launcher:newFocus=com.huawei.mh2.launcher.a.n{2c959178 VFE...C. .F...... 414,0-584,57 #7f0a0009 app:id/menu_title_cartoon} [m
+02-25 23:40:16.737 D/AudioPolicyManagerBase( 1406): startOutput() output 2, stream 1, session 257
+02-25 23:40:16.737 D/AudioPolicyManagerBase( 1406): startoutput ->setOutputDevice
+02-25 23:40:16.737 I/Input   (13807): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22426899, downTime=22426899, deviceId=-1, source=0x101 }
+02-25 23:40:16.737 D/AudioPolicyManagerBase( 1406): AudioPolicyManagerBase::checkAndSetVolume 13,0.377113
+02-25 23:40:16.737 D/WindowManager( 1948): keyCode =22
+02-25 23:40:16.737 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.e][onGlobalFocusChanged][-1]:launcher:smoothMove [m
+02-25 23:40:16.737 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:16.737 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:16.737 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:16.737 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:16.737 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:16.739 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c959178 VFE...C. .F...... 414,0-584,57 #7f0a0009 app:id/menu_title_cartoon} [m
+02-25 23:40:16.739 D/AndroidRuntime(13807): Shutting down VM
+02-25 23:40:16.740 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][onFocusChange][-1]:launcher:v=com.huawei.mh2.launcher.a.n{2c959178 VFE...C. .F....ID 414,0-584,57 #7f0a0009 app:id/menu_title_cartoon} [m
+02-25 23:40:16.741 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=22 [m
+02-25 23:40:16.746 D/dalvikvm(13807): GC_CONCURRENT freed 98K, 16% free 566K/668K, paused 0ms+0ms, total 3ms
+02-25 23:40:16.755 I/MyGallery( 2257): setMode 2
+02-25 23:40:16.755 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][b][-1]:launcher:currentIndex=2 nextIndex=3 [m
+02-25 23:40:16.756 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=71 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:16.757 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=61 offsetTop=0 moveImmediate=false [m
+02-25 23:40:16.758 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:16.760 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:16.769 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=25 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:16.770 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=21 offsetTop=0 moveImmediate=false [m
+02-25 23:40:16.770 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:16.771 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:16.783 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=9 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:16.783 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=7 offsetTop=0 moveImmediate=false [m
+02-25 23:40:16.784 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:16.785 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:16.800 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=5 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:16.800 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=5 offsetTop=0 moveImmediate=false [m
+02-25 23:40:16.801 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=true [m
+02-25 23:40:16.802 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:16.820 I/MyGallery( 2257): setMode 5
+02-25 23:40:16.820 I/MyGallery( 2257): setMode 5
+02-25 23:40:16.821 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:16.827 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:16.829 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:16.831 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:16.833 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][a][-1]:launcher:currentIndex=2 nextIndex=3 [m
+02-25 23:40:16.878 D/TwoPosterPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.TwoPosterPage][setBottomBackgroundVisiable][-1]:launcher:visiable=true [m
+02-25 23:40:16.882 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c959178 VFE...C. .F...... 414,0-584,57 #7f0a0009 app:id/menu_title_cartoon} [m
+02-25 23:40:16.941 I/MyGallery( 2257): setMode 0
+02-25 23:40:16.944 I/MyGallery( 2257): setMode 0
+02-25 23:40:16.969 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:16.970 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:16.971 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:16.971 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:18.559 E/NetWorkManager( 2323): NetWorkManager retryOther   time  = 5005
+02-25 23:40:18.560 I/EthernetService( 1948): getWifiDisguiseState: STATE UNKNOWN
+02-25 23:40:18.560 I/EthernetManager( 1948): getWifiDisguiseState2
+02-25 23:40:18.560 I/EthernetService( 1948): getWifiDisguiseState: STATE UNKNOWN
+02-25 23:40:18.560 D/ConnectivityService( 1948): mActiveDefaultNetwork = 9
+02-25 23:40:18.562 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): network.onStateChanged: 2 -> 4
+02-25 23:40:18.562 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): onNetWorkDisconnected(网络不通，
+02-25 23:40:18.562 D/com.qiyi.video.player.QiyiVideoPlayer@2cbe12b0( 2323): 请检查网络连接状况)
+02-25 23:40:18.562 D/PlayerController[2ca9db70]( 2323): onActivityEvent(NETWORK_STATE_CHANGED)
+02-25 23:40:18.562 D/VideoProvider( 2323): setNetworkAvaliable(false) mNetworkAvaliable=false
+02-25 23:40:18.562 D/ToastHelper( 2323): showToast: 网络已断开，请检查网络连接状况
+02-25 23:40:18.578 D/PlayerOverlay( 2323): onActivityEvent: NETWORK_STATE_CHANGED
+02-25 23:40:18.578 D/PlayerOverlay( 2323): onActivityEvent: network connected=false
+02-25 23:40:18.578 I/AbsMenuPanel( 2323): hide
+02-25 23:40:18.578 D/AbsMenuPanel( 2323): notifyVisibilityChange(false)
+02-25 23:40:18.578 D/AbsPlayerOverlay( 2323): notifyMenuPanelVisibilityChange(false)
+02-25 23:40:18.578 D/DispatcherCenter( 2323): onVisibilityChange(isVisible:false)
+02-25 23:40:18.578 D/VideoProvider( 2323): getCurrent()
+02-25 23:40:18.580 D/Playlist( 2323): getCurrent() return VideoHolder@2f12c328{episodeReady=false, historyReady=false, mListReady=false, mSourceStub=false, position=Position(albumIndex=-1, episodeIndex=-1), video=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}}
+02-25 23:40:18.582 D/PlayerController[2ca9db70]( 2323): MenuPanel.onVisibilityChange(false): video=VideoItem@2f077cf8{qpId=202509101, tvQid=349989700, vid=256c33c045d36a7126ce1db2c37c0167, getType()=VIDEO, albumName=中国梦想秀第9季, tvName=折纸狂人盼圆妻子羊驼之梦 单亲醒狮团定位人生, isSeries()=true, sourceCode=202509101, playOrder=1, getAlbumSubName()=中国梦想秀第9季, mIsVipAlbum=false, isPurchase()=false, isPreview=false, isExclusive()=false, isVertical=false, canDownload()=true, isDownload=1, tvPic=, issueTime=20150225, playCount=41499, playLength=1445, tag=国语,内地,真人秀, cornerMark=CORNERMARK_1080P, definition list=600,300,jisu,1080p,720p, default definition=256c33c045d36a7126ce1db2c37c0167, channelId=6, channelName=综艺, mIChannelId=null, startTime=0, endTime=0, headerTime=0, tailTime=0, tvCount=1, tvSets=0, playTime=-1, episodes=0, url=, m3u8Url = null, mRecommendationsFilled=false, mEndRecommendationsFilled=false, mVarietyName=null}, sourceType=OUTSIDE, isPlaylistReady=false
+02-25 23:40:18.583 D/MediaControllerContainer( 2323): hideHeader()
+02-25 23:40:18.583 D/MediaControllerOverlay( 2323): hideHeader() mShowHeader=false
+02-25 23:40:18.583 D/MediaControllerOverlay( 2323): doHide() com.qiyi.video.project.configs.huawei.layout.HuaweiMediaControllerOverlay{2cbec238 G.E..... ......I. 0,0-0,0}[mState=0, mShowHeader=false, mBuffering=false, mTipShown=false, mSeeking=false, mIsFullScreen=true]
+02-25 23:40:18.583 D/MediaControllerOverlay( 2323): clearHideViewMessageQueue()
+02-25 23:40:18.583 D/TimedSeekBar( 2323): stopTipMode() mIsTipMode=false
+02-25 23:40:18.583 D/TimedSeekBar( 2323): hide()
+02-25 23:40:18.583 D/MediaControllerOverlay( 2323): hideView() Views[Adtime,VideoName,Systime,Pause,Seekbar,]
+02-25 23:40:18.583 D/MediaControllerOverlay( 2323): tip view id:2131100038
+02-25 23:40:18.583 D/CountDownView( 2323): hide()
+02-25 23:40:18.584 D/Player/Pingback/PingbackSender( 2323): >> onActivityEvent(event:NETWORK_STATE_CHANGED): now=22428759
+02-25 23:40:18.766 E/NetWorkManager( 2323): NetWorkManager connect internet success !!  http://www.qq.com
+02-25 23:40:18.859 E/NetWorkManager( 2323): NetWorkManager connect internet success !!  http://www.taobao.com
+02-25 23:40:18.876 E/NetWorkManager( 2323): NetWorkManager connect internet success !!  http://www.sina.com.cn
+02-25 23:40:18.966 E/NetWorkManager( 2323): NetWorkManager connect internet success !!  http://www.163.com
+02-25 23:40:19.118 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:19.120 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:19.122 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:19.192 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:19.193 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:19.195 E/VPP_DLNA_LOG( 2814): [VPPDLNA]:SSDP recvd bad msg code = 1
+02-25 23:40:19.486 D/AndroidRuntime(13821): 
+02-25 23:40:19.486 D/AndroidRuntime(13821): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 23:40:19.488 D/AndroidRuntime(13821): CheckJNI is OFF
+02-25 23:40:19.497 I/dalvikvm(13821): DexOpt: mismatch dep signature for '/system/framework/android.policy.odex'
+02-25 23:40:19.497 E/dalvikvm(13821): /system/framework/services.jar odex has stale dependencies
+02-25 23:40:19.498 I/dalvikvm(13821): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:19.498 E/dalvikvm(13821): /system/framework/apache-xml.jar odex has stale dependencies
+02-25 23:40:19.499 I/dalvikvm(13821): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:19.499 E/dalvikvm(13821): /system/framework/webviewchromium.jar odex has stale dependencies
+02-25 23:40:19.507 D/dalvikvm(13821): Trying to load lib libjavacore.so 0x0
+02-25 23:40:19.510 D/dalvikvm(13821): Added shared lib libjavacore.so 0x0
+02-25 23:40:19.516 D/dalvikvm(13821): Trying to load lib libnativehelper.so 0x0
+02-25 23:40:19.516 D/dalvikvm(13821): Added shared lib libnativehelper.so 0x0
+02-25 23:40:19.516 D/dalvikvm(13821): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 23:40:19.535 I/dalvikvm(13821): DexOpt: mismatch dep name: '/data/dalvik-cache/system@framework@services.jar@classes.dex' vs. '/system/framework/services.odex'
+02-25 23:40:19.535 E/dalvikvm(13821): /system/framework/input.jar odex has stale dependencies
+02-25 23:40:19.539 E/cutils-trace(13821): Error opening trace file: No such file or directory (2)
+02-25 23:40:19.559 D/dalvikvm(13821): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-25 23:40:19.747 E/memtrack(13821): Couldn't load memtrack module (No such file or directory)
+02-25 23:40:19.747 E/android.os.Debug(13821): failed to load memtrack module: -2
+02-25 23:40:19.749 I/EthernetJNI(13821): Loading ethernet jni class
+02-25 23:40:19.818 D/AndroidRuntime(13821): Calling main entry com.android.commands.input.Input
+02-25 23:40:19.819 I/Input   (13821): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22429994, downTime=22429994, deviceId=-1, source=0x101 }
+02-25 23:40:19.824 D/WindowManager( 1948): keyCode =4
+02-25 23:40:19.824 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:19.824 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:19.824 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:19.824 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:19.824 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:19.825 D/WindowManager( 1948): send broadcast key press down
+02-25 23:40:19.825 W/ContextImpl( 1948): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1168 com.android.internal.policy.impl.PhoneWindowManager.interceptKeyBeforeQueueing:4109 com.android.server.wm.InputMonitor.interceptKeyBeforeQueueing:357 com.android.server.input.InputManagerService.interceptKeyBeforeQueueing:1352 com.android.server.input.InputManagerService.nativeInjectInputEvent:-2 
+02-25 23:40:19.828 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=4 [m
+02-25 23:40:19.830 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:request Default Focus [m
+02-25 23:40:19.831 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.l][onGlobalFocusChanged][-1]:launcher:newFocus=com.huawei.mh2.launcher.a.x{2f069d08 VFE..... .F...... -257,67-6,428} [m
+02-25 23:40:19.833 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.e][onGlobalFocusChanged][-1]:launcher:smoothMove [m
+02-25 23:40:19.833 I/Input   (13821): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=22429994, downTime=22429994, deviceId=-1, source=0x101 }
+02-25 23:40:19.834 D/WindowManager( 1948): keyCode =4
+02-25 23:40:19.834 D/WindowManager( 1948): isLockedAllKeys =0
+02-25 23:40:19.834 D/WindowManager( 1948): isHandleHomeKey = 1
+02-25 23:40:19.834 D/WindowManager( 1948): isHandlePowerKey ==1
+02-25 23:40:19.834 D/WindowManager( 1948): isHandleSettingKey=1
+02-25 23:40:19.834 D/WindowManager( 1948): handleSystemKey==1
+02-25 23:40:19.835 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.x{2f069d08 VFE..... .F...... -257,67-6,428} [m
+02-25 23:40:19.836 D/AndroidRuntime(13821): Shutting down VM
+02-25 23:40:19.836 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.l][onGlobalFocusChanged][-1]:launcher:newFocus=com.huawei.mh2.launcher.a.q{2c9855a0 VFE..... .F.....D 0,0-2021,428 #7f0a0021 app:id/gallery} [m
+02-25 23:40:19.839 D/TwoPosterPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.s][onFocusChange][-1]:launcher:hasFocus=true [m
+02-25 23:40:19.841 D/TwoPosterPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.TwoPosterPage][setBottomBackgroundVisiable][-1]:launcher:visiable=true [m
+02-25 23:40:19.841 D/dalvikvm(13821): GC_CONCURRENT freed 98K, 16% free 566K/668K, paused 1ms+0ms, total 4ms
+02-25 23:40:19.842 D/TwoPosterPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.s][onFocusChange][-1]:launcher:hasFocus=false [m
+02-25 23:40:19.844 D/ImageLoader( 2257): Start display image task [http://pic0.ptqy.gitv.tv/image/20150204/0f/2e/42/a_50150907_m_600_m5_354_490.jpg_255x354]
+02-25 23:40:19.845 D/ImageLoader( 2257): Load image from disc cache [http://pic0.ptqy.gitv.tv/image/20150204/0f/2e/42/a_50150907_m_600_m5_354_490.jpg_255x354]
+02-25 23:40:19.845 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.l][onGlobalFocusChanged][-1]:launcher:newFocus=com.huawei.mh2.launcher.a.x{2c94c058 VFE..... .FS..... 879,67-1142,428} [m
+02-25 23:40:19.847 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.e][onGlobalFocusChanged][-1]:launcher:smoothMove [m
+02-25 23:40:19.850 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.x{2c94c058 VFE..... .FS..... 879,67-1142,428} [m
+02-25 23:40:19.851 D/TwoPosterPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.s][onFocusChange][-1]:launcher:hasFocus=true [m
+02-25 23:40:19.854 D/TwoPosterPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.TwoPosterPage][setBottomBackgroundVisiable][-1]:launcher:visiable=true [m
+02-25 23:40:19.855 D/TwoPosterPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.s][onFocusChange][-1]:launcher:hasFocus=false [m
+02-25 23:40:19.857 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.l][onGlobalFocusChanged][-1]:launcher:newFocus=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .F...... 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:19.858 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.e][onGlobalFocusChanged][-1]:launcher:smoothMove [m
+02-25 23:40:19.859 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .F...... 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:19.861 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][onFocusChange][-1]:launcher:v=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .F....ID 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:19.862 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:setDefaultFocus com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .F....ID 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:19.863 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .F....ID 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:19.864 D/MainActivity( 2257): [0;32;31m[main][com.huawei.mh2.launcher.MainActivity][dispatchKeyEvent][-1]:launcher:keycode=4 [m
+02-25 23:40:19.866 D/u       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.p][getView][-1]:launcher:position=5 convertView=null [m
+02-25 23:40:19.866 D/ImageLoader( 2257): PreProcess image before caching in memory [http://pic0.ptqy.gitv.tv/image/20150204/0f/2e/42/a_50150907_m_600_m5_354_490.jpg_255x354]
+02-25 23:40:19.867 D/ImageLoader( 2257): Cache image in memory [http://pic0.ptqy.gitv.tv/image/20150204/0f/2e/42/a_50150907_m_600_m5_354_490.jpg_255x354]
+02-25 23:40:19.886 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=-50 offsetHeight=0 resizeImmediate=true [m
+02-25 23:40:19.887 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=-414 offsetTop=0 moveImmediate=true [m
+02-25 23:40:19.888 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=true isChanged=true [m
+02-25 23:40:19.889 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=true [m
+02-25 23:40:19.890 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][b][-1]:launcher:currentIndex=3 nextIndex=0 [m
+02-25 23:40:19.901 D/ImageLoader( 2257): Display image in ImageAware (loaded from DISC_CACHE) [http://pic0.ptqy.gitv.tv/image/20150204/0f/2e/42/a_50150907_m_600_m5_354_490.jpg_255x354]
+02-25 23:40:19.903 I/MyGallery( 2257): setMode 3
+02-25 23:40:19.904 I/MyGallery( 2257): setMode 3
+02-25 23:40:19.904 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=true [m
+02-25 23:40:19.904 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=true [m
+02-25 23:40:19.905 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=true isChanged=false [m
+02-25 23:40:19.906 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
+02-25 23:40:19.957 I/MyGallery( 2257): setMode 4
+02-25 23:40:19.958 D/FrameworkPage( 2257): [0;32;31m[main][com.huawei.mh2.launcher.page.FrameworkPage][a][-1]:launcher:currentIndex=3 nextIndex=0 [m
+02-25 23:40:19.963 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:anchorView=com.huawei.mh2.launcher.a.n{2c944210 VFE...C. .F...... 0,0-120,57 #7f0a0006 app:id/menu_title_home} [m
+02-25 23:40:20.058 I/MyGallery( 2257): setMode 0
+02-25 23:40:20.071 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][b][-1]:launcher:offsetWidth=0 offsetHeight=0 resizeImmediate=false [m
+02-25 23:40:20.072 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.g][a][-1]:launcher:offsetLeft=0 offsetTop=0 moveImmediate=false [m
+02-25 23:40:20.072 D/j       ( 2257): [0;32;31m[main][net.sunniwell.ui.d][a][-1]:launcher:immediate=false isChanged=false [m
+02-25 23:40:20.073 D/j       ( 2257): [0;32;31m[main][com.huawei.mh2.launcher.j][a][-1]:launcher:changed=false [m
